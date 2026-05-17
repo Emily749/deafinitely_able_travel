@@ -1,0 +1,40 @@
+.page {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: var(--nav-height) 24px 80px;
+}
+
+.title {
+  font-family: var(--font-serif);
+  font-size: clamp(40px, 6vw, 72px);
+  font-weight: 300;
+  color: var(--espresso);
+  letter-spacing: -0.02em;
+  margin: 16px 0 20px;
+}
+
+.body {
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--mid-tone);
+  margin-bottom: 40px;
+}
+
+.link {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--champagne);
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  transition: color 0.2s;
+}
+
+.link:hover {
+  color: var(--espresso);
+}

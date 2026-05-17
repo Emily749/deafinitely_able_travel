@@ -31,268 +31,340 @@ export const posts: Post[] = [
     slug: 'heathrow-airport',
     category: 'transit',
     title: 'Heathrow Airport (LHR)',
-    subtitle: 'A complete guide to Terminal 5 for deaf and hard-of-hearing travellers',
+    subtitle: 'Navigating Terminal 5 purely by sight as a deaf jet-setter',
     location: 'London, UK',
     date: 'May 2025',
     readTime: '8 min read',
     image:
       'https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1600&q=80&auto=format&fit=crop',
     excerpt:
-      'Heathrow\'s Terminal 5 is vast, fast-moving, and relies heavily on audio announcements. Here\'s how to move through it with complete confidence.',
-    body: `Terminal 5 operates on a visual information system that most travellers ignore entirely. The large departure boards update in real time, but the less obvious tool is the British Airways app, which pushes gate notifications directly to your phone.
+      'Heathrow\'s Terminal 5 is an absolute monster of a hub, fast-moving and heavily reliant on tannoy announcements. Here is my personal playbook for breezing through it without missing a beat.',
+    body: `Terminal 5 operates on a massive visual infrastructure that most hearing travellers completely look past. While everyone else is straining to hear muffled gate announcements, my eyes are glued to the big flight boards or my British Airways app, which pushes gate updates straight to my phone.
 
-**Live Sign Language Assistance**
-Heathrow offers the free **Convo** service for instant access to a qualified British Sign Language (BSL) interpreter. Look for Convo posters and QR codes inside Assistance host areas across all terminals to load an interpreter directly in your phone's browser without downloading an app.
+**My Lifesaver: Live Sign Language Assistance**
+Did you know Heathrow has integrated the free **Convo** service? If you are a BSL user like me, this is a total game-changer. I always look out for the Convo posters and QR codes inside the Assisted Travel host zones. You just scan it, and it instantly loads a qualified British Sign Language interpreter right in your mobile browser—no clunky app download needed. 
 
-**Induction Loops & Payphones**
-Induction loops are fitted throughout the airport terminals—look for the standard 'sympathetic ear' symbol. All public payphones and credit card phones have been adapted for hearing aids, and text payphones are available in the arrivals area just past Customs.
+**Loops & T-Settings**
+If you use hearing aids or a cochlear implant with a Telecoil, induction loops are fitted all over the terminal buildings (just keep an eye out for the classic 'sympathetic ear' logo). If you ever need to use a public payphone or credit card phone airside, they have all been adapted for hearing aids, and there are text payphones sitting in arrivals just past Customs.
 
-**Fast Track Security**
-Book fast track in advance through the BA app or Heathrow's own site. The lane moves quickly and staff are accustomed to written communication requests. Carry a small card or use your phone notes to indicate you are deaf. Staff will visually signal you through each step.
+**Sprinting Through Security**
+I highly recommend booking Fast Track security in advance on the app. It cuts down the chaotic queue time significantly. The staff here see thousands of faces a day, so they are incredibly receptive to written notes on my phone. I just flash a quick memo indicating I am deaf, and they visually signal and gesture me through the scanners step-by-step.
 
-**The Lounges**
-Galleries First and Galleries Club both have staff trained to communicate via written notes or tablet. Request a vibrating alarm at the desk for boarding notifications. Lounge staff will come to you directly.
+**Lounge Life**
+Whenever I pop into the Galleries First or Galleries Club lounges, I head straight to the desk and use a notepad app to chat with the team. I always ask them for a vibrating alarm pod for boarding alerts. That way, instead of stressing about missing a visual board shift while relaxing, the pod buzzes in my hand when it is time to move.
 
-**Gate Announcements**
-Sit within clear sightline of the gate display screen. All boarding information appears on screen before and during any audio announcement. If you are unsure, approach gate staff directly. Written communication is standard practice.`,
+**The Ultimate Gate Strategy**
+T5 is notoriously famous for assigning gates at the absolute last second. I make sure to camp out within a perfect, direct line of sight to a Flight Information Display Screen (FIDS). Because individual gate adjustments aren't broadcast visually over the main general seating areas, that screen is your absolute source of truth.`,
   },
   {
     slug: 'gatwick-airport',
     category: 'transit',
     title: 'Gatwick Airport (LGW)',
-    subtitle: 'Managing terminal changes and security without audio cues',
+    subtitle: 'My visual guide to surviving terminal transfers and security hubs',
     location: 'London, UK',
     date: 'June 2025',
     readTime: '7 min read',
     image:
       'https://images.unsplash.com/photo-1569154941061-e231b4725ef1?w=1600&q=80&auto=format&fit=crop',
     excerpt:
-      'Gatwick\'s split terminal design relies on a shuttle link. Here is how to keep your visual bearings through both hubs.',
-    body: `The inter-terminal shuttle running between North and South terminals is completely automated. It features high-contrast digital text screens inside each carriage updating the upcoming stops visually.
+      'Gatwick\'s split-terminal layout relies heavily on an automated shuttle link. Here is how I keep my visual bearings intact without needing a single audio cue.',
+    body: `As a deaf traveller, Gatwick can feel a bit chaotic during peak holiday seasons, but its visual signage is actually remarkably tight if you know what to look for. 
 
-**Staff Communication & Training**
-London Gatwick partners with **Action for Deafness** to train airport staff, ensuring over 150 team members understand the specific communication barriers faced by deaf and hard-of-hearing travellers. Dedicated assistance desks feature Hearing T-loop systems.
+**Breezing Through the Shuttle Link**
+Transferring between the North and South terminals means jumping on the automated inter-terminal shuttle. Zero audio verification is needed here. I just follow the bright overhead yellow signs pointing toward the platforms. Once inside the carriage, there are high-contrast digital text screens that give real-time visual updates of the upcoming stops, and the platforms have massive countdown timers above the doors.
 
-**Assistance Lounges & Seating**
-If using the Assisted Travel service, staff will escort you past security to the Assistance Lounge. If navigating independently, you can bypass World Duty Free using signs to reach the Dedicated Assistance Seating zones (Upper floor in South Terminal; adjacent to Boots/Wetherspoons in North Terminal) where all key structural announcements are clearly mirrored on surrounding displays.
+**Awesome Staff Awareness**
+One thing I absolutely love about London Gatwick is their partnership with **Action for Deafness**. They have trained over 150 airport team members to understand the exact communication barriers we face. Whenever I approach a dedicated assistance desk, I look for the active T-loop systems to tune my devices in clearly.
 
-**Security Queues**
-Both North and South terminals utilise large colour-coded overhead screens to direct passengers into lanes. Use the barcode scanners at the turnstiles and look for the overhead green or red arrow indicators to know which security line is ready for you.
+**Bypassing the Duty Free Chaos**
+If you book the Assisted Travel service, staff can guide you straight past security. But if you are travelling solo and independently like me, you can actually bypass the blinding maze of World Duty Free entirely. Just follow the clear structural signs to reach the Dedicated Assistance Seating zones (you\'ll find them on the upper floor in South, and right next to Boots and Wetherspoons in North). The best part? All key structural announcements are mirrored directly on the surrounding screens in these zones.
 
-**Digital Boarding**
-Gatwick features massive, highly dense digital departure matrixes in both departure lounges. Since individual gate updates are not broadcast visually over loudspeakers in general seating, sit directly facing a flight information display screen (FIDS).`,
+**Color-Coded Security & Boarding**
+Both terminals use large, colour-coded overhead screens to stream passengers into the right security lanes. I just scan my barcode at the turnstiles and look for the bright green or red arrows to know which lane is ready for me. Once airside, the departure lounges are packed with dense digital matrixes. Since budget airlines love last-minute shuffles, I always grab a seat facing a master display screen so I can catch status changes instantly.`,
   },
   {
     slug: 'stansted-airport',
     category: 'transit',
     title: 'Stansted Airport (STN)',
-    subtitle: 'Navigating the single-terminal layout and transit trains seamlessly',
+    subtitle: 'Navigating the single-terminal layout and monorails entirely by sight',
     location: 'Essex, UK',
     date: 'July 2025',
     readTime: '6 min read',
     image:
       'https://images.unsplash.com/photo-1542296332-2e4473fac563?w=1600&q=80&auto=format&fit=crop',
     excerpt:
-      'Stansted streamlines everyone through a singular massive space, but the satellite gates require a visual transit train strategy.',
-    body: `Stansted operates as a single large terminal building, which simplifies orientation, but relies on a visual monorail shuttle to reach the furthest satellite departure gates.
+      'Stansted funnels every single passenger through one massive room. Here is my strategy for tackling the crowds and navigating the satellite monorail trains safely.',
+    body: `Stansted operates as one giant, continuous terminal building. While that simplifies orientation because you can\'t get lost in the wrong building, it means the main departure hall gets incredibly loud and crowded. For a deaf traveller, it is a purely visual game of focus.
 
-**On-Demand BSL Interpreters**
-London Stansted has fully integrated with the **SignLive** service. Deaf or hard-of-hearing passengers can instantly connect to a live British Sign Language interpreter when communicating with airport staff or contacting customer service counters.
+**On-Demand BSL on My Phone**
+London Stansted has fully integrated with the **SignLive** service, which is incredible. Whenever I need to ask a question at a service counter or chat with a member of staff, I can instantly connect to a live British Sign Language interpreter directly on my phone. It completely removes the stress of trying to lip-read in a frantic, bustling environment.
 
-**The Automated Track Transit**
-When your gate is assigned, follow the clear overhead numbers down to the track transit system. The platforms are fully glass-walled with scrolling destination indicators showing exactly which satellite gates (1 to 39) the arriving train will access.
+**Cracking the Automated Track Transit**
+Once your gate is finally assigned, you have to take the automated track transit train to reach the furthest satellite gates (1 to 39). I follow the overhead numbers down to the platforms, which are fully glass-walled. There are fantastic scrolling text indicators above the doors showing exactly which gates the incoming train is accessing, so you can just hop on with total confidence.
 
-**Main Departure Lounge**
-Because the main hall gets incredibly crowded, visual notifications on the central status boards are critical. Do not move toward the gates until the flashing "Go to Gate" or "Boarding" text updates next to your flight number.
+**Surviving the Departure Hall**
+Because the main hall is an absolute sea of people, the central status boards are your lifeline. I never make the trek down to the satellite gates until I see the text flashing "Go to Gate" or "Boarding" next to my flight number. 
 
-**Gate Boarding**
-Low-cost carriers at Stansted rely heavily on rapid turnaround times. Monitor the gate-side digital displays closely, as boarding phases scale quickly without distinct visual buffer announcements.`,
+**Rapid Gate Turnarounds**
+Budget carriers dominate Stansted, which means turnaround times are lightning-fast. I always sit right next to the gate-side digital displays because boarding phases scale up rapidly, and you won\'t get any extra visual buffers before they close the doors.`,
   },
   {
     slug: 'beziers-airport',
     category: 'transit',
     title: 'Béziers Cap d\'Agde Airport (BZR)',
-    subtitle: 'Surviving a regional French airport without audio stress',
+    subtitle: 'A beautifully low-stress, single-room regional airport experience',
     location: 'Béziers, France',
     date: 'August 2025',
     readTime: '5 min read',
     image:
       'https://images.unsplash.com/photo-1495107334309-fcf20504a5ab?w=1600&q=80&auto=format&fit=crop',
     excerpt:
-      'Béziers Airport is tiny, boasting a single terminal and straightforward layouts that eliminate the stress of tracking connections.',
-    body: `Béziers Cap d'Agde operates with a highly intuitive, one-room concept where check-in desks, security lines, and the sole departure lounge are visible all at once.
+      'Béziers Airport is delightfully tiny. With just a single room making up the entire terminal, it completely eliminates the usual anxiety of tracking connections.',
+    body: `Béziers Cap d'Agde is an absolute dream for deaf travellers who are exhausted by the overwhelming scale of major international hubs. The entire airport operates on an intuitive, one-room concept where check-in desks, security lines, and the lone departure lounge are completely visible all at once.
 
-**Visual Independence**
-Because there are no complex boarding announcements or massive digital matrix shifts, deaf travellers can safely monitor the single departures screen. Induction loop signs are posted at primary check-in points.
+**Total Visual Independence**
+There are no complex multi-terminal transit systems, no hidden corridors, and no massive digital matrix shifts to track. I can just relax and monitor the single departures screen in the middle of the room. Induction loop signs are clearly posted at the primary check-in points if you need to use them, but the layout is so visual you barely need to ask for directions.
 
-**Tarmac Boarding**
-Béziers lacks jet bridges completely. When your flight opens, staff open a manual exit door directly to the tarmac. Simply follow the physical queue layout on the asphalt directly to the aircraft stairways.
+**Walking the Tarmac**
+Béziers doesn't have jet bridges, which I honestly prefer because it keeps everything out in the open. When boarding opens, the staff simply open a manual exit door leading straight out onto the tarmac. You just follow the physical queue layout painted on the asphalt directly to the aircraft stairways. 
 
-**Acoustic Calm**
-Because the terminal handles just a few budget flights simultaneously, the ambient noise is incredibly minimal compared to major hubs, making visual focus much easier.`,
+**Beautiful Acoustic Calm**
+Because this regional hub handles only a couple of budget flights at any given time, the ambient noise is almost non-existent. It makes staying visually focused incredibly peaceful compared to the sensory overload of London airports.`,
   },
   {
     slug: 'menorca-airport',
     category: 'transit',
     title: 'Menorca Mahón Airport (MAH)',
-    subtitle: 'Navigating the multi-level Balearic terminal without announcements',
+    subtitle: 'Mastering the vertical, multi-level Balearic hub without announcements',
     location: 'Menorca, Spain',
     date: 'September 2025',
     readTime: '6 min read',
     image:
       'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1600&q=80&auto=format&fit=crop',
     excerpt:
-      'Menorca Airport organises its check-in, security, and gates vertically, providing a clear visual chain to follow.',
-    body: `Menorca Airport utilises a clean vertical split structure: Check-In resides entirely on Floor 1, while Security Screenings and Boarding Gates sit on Floor 2.
+      'Menorca Airport organises its travel flow vertically across two floors. Here is how I navigate the layout and find quiet visual spaces during peak summer.',
+    body: `Menorca Airport has a super clean, vertical split structure that makes navigating as a deaf person incredibly logical: Check-In resides entirely on Floor 1, while Security and the Boarding Gates sit directly above on Floor 2.
 
-**Text-Based Information Overlays**
-Main informational columns and flight display blocks include text-based status markers rather than shifting layouts. Ensure you confirm your gate alignment visibly as audio announcements are rarely paired with multi-language updates during peak season.
+**Text-Based Status Overlays**
+Clear elevators and glass escalators guide you straight up from the check-in hall. I love that there are status displays positioned right at every escalator bank, so you can double-check your flight details before going through security. The main informational columns use fixed, text-based status markers rather than shifting layouts. This is super helpful because audio announcements are rarely translated into multiple languages during the frantic peak holiday season.
 
-**Airside Signage**
-Once past security, gates are arranged in a single linear corridor format. The text and gate number markers use distinct bright yellow numbering schemes that contrast against the interior architecture.
+**Linear Airside Paths**
+Once you pass through security, the gates are arranged in one single, continuous linear corridor. The gate markers use distinct, high-contrast bright yellow numbering schemes that stand out beautifully against the building\'s architecture. 
 
-**Tramuntana Lounge Visuals**
-The airside Tramuntana VIP lounge features its own standalone flight monitors, allowing you to track gate assignments in a calm environment away from the crowded main corridors.`,
+**My Hidden Refuge: Tramuntana Lounge**
+If the main gates get too hectic, I highly recommend checking into the airside Tramuntana VIP lounge. It features its own standalone flight monitors in a completely calm environment, so I can relax, read, and track my gate assignments away from the crowded, noisy main walkways.`,
   },
   {
     slug: 'mallorca-airport',
     category: 'transit',
     title: 'Palma de Mallorca Airport (PMI)',
-    subtitle: 'Managing the massive modular corridors of Son Sant Joan',
+    subtitle: 'Conquering the immense visual scale of Son Sant Joan\'s massive piers',
     location: 'Mallorca, Spain',
     date: 'October 2025',
     readTime: '7 min read',
     image:
       'https://images.unsplash.com/photo-1530841377377-3ff06c0ca713?w=1600&q=80&auto=format&fit=crop',
     excerpt:
-      'Palma is massive, but its layout relies on a singular central processing building connected to four distinct, visible modules.',
-    body: `Palma de Mallorca Airport is highly modular. You pass through security in a unified central terminal before separating out into Modules A, B, C, or D.
+      'Palma Airport is absolutely immense, but its clever modular design makes it surprisingly visual-friendly if you prep your route.',
+    body: `Palma de Mallorca is one of the busiest hubs in Europe during the summer, and its sheer scale can feel a bit daunting. However, it relies on a very smart modular design: you pass through security in a unified central processing terminal, and then branch off into four independent modules: A, B, C, or D.
 
-**Continuous Flight Monitors**
-The walkways connecting modules are exceptionally long. They feature continuous moving walkways lined with high-frequency flight indicator screens so you never have to turn around to verify gate modifications.
+**Non-Stop Flight Monitors**
+The walkways connecting the central building to the individual modules are exceptionally long. To save you from constantly turning around or stressing about gate changes during the long walk, the moving walkways are lined with high-frequency flight indicator screens the entire way down. 
 
-**Module Specifics**
-Each module has a dedicated colour accent and entrance sign. Ensure you look at the master terminal board immediately after security check to confirm your letter destination before making the trek.
+**Module Identification**
+Each module has its own distinct colour accent and massive overhead entrance sign. I always make sure to check the master terminal board the absolute second I clear security to confirm my letter destination before committing to the trek.
 
-**Visual Alerts at Gates**
-Because gates are deep within separate piers, gate-front screens are your source of truth. They display boarding status rows clearly, shifting from "Scheduled" to "Boarding" with high-contrast text layout.`,
+**The Source of Truth: Gate Screens**
+Because the gates are buried deep within separate architectural piers, the individual gate-front screens are your absolute source of truth. They display boarding status rows with brilliant clarity, shifting from "Scheduled" to "Boarding" using sharp, high-contrast text layouts that you can read from a distance.`,
   },
   {
     slug: 'ibiza-airport',
     category: 'transit',
     title: 'Ibiza Airport (IBZ)',
-    subtitle: 'Tracking your way through intense summer crowds purely by sight',
+    subtitle: 'Tackling high-season summer crowds purely by sight',
     location: 'Ibiza, Spain',
     date: 'November 2025',
     readTime: '6 min read',
     image:
       'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1600&q=80&auto=format&fit=crop',
     excerpt:
-      'Ibiza\'s terminal gets incredibly packed in summer, making ambient noise high. Relying on visual check-ins is essential.',
-    body: `Ibiza Airport works as a singular elongated building layout. High passenger numbers mean acoustic announcements are easily drowned out, making physical indicators your primary navigation resource.
+      'Ibiza\'s single-terminal layout gets incredibly packed, making ambient noise sky-high. Here is how I navigate it independently using physical cues.',
+    body: `Ibiza Airport operates out of a single, long, elongated building. Because it gets incredibly packed with holidaymakers, the acoustic announcements are almost entirely drowned out by the ambient roar of the crowd. This means relying on your eyes is absolutely essential.
 
-**Centralized Security Hub**
-Security is positioned dead-centre on the first floor. Digital display signage monitors the line flow visually, signalling when to step forward to scanning zones.
+**Centralised Security Flow**
+The security checkpoint is positioned dead-centre on the first floor. I love that they use dynamic digital display signage to monitor the line flow visually, making it perfectly clear when you need to step forward to an open scanning zone.
 
-**Linear Gate Path**
-All boarding gates run along a singular axis airside. This linear path means you can walk down a single line to check your specific gate screen directly without getting disoriented in side halls.
+**The Single Axis Gate Path**
+Once airside, all the boarding gates run along a singular straight axis line. This linear path is amazing for deaf travellers because you can literally walk down a single corridor to check your specific gate screen directly, without ever getting disoriented in side halls or hidden wings.
 
-**Ground Floor Gates**
-Many low-cost carriers use the lower-level ground gates that lead to bus transfers. These gates rely heavily on row lines—look for the printed zone lines on the floor to position yourself visually for early boarding.`,
+**Ground Floor Bus Transfers**
+A lot of budget airlines use the lower-level ground gates that lead to tarmac bus transfers. These gates can get a bit frantic, but they rely heavily on physical line lanes. I always look for the clearly printed zone lines marked on the floor to position myself visually for priority boarding.`,
   },
   {
     slug: 'houston-airport',
     category: 'transit',
     title: 'George Bush Intercontinental Airport (IAH)',
-    subtitle: 'Mastering the multi-terminal Skyway and Subway networks by sight',
+    subtitle: 'Mastering the multi-terminal Skyway and Subway train networks by sight',
     location: 'Houston, USA',
     date: 'January 2026',
     readTime: '8 min read',
     image:
       'https://images.unsplash.com/photo-1531058020387-3be344559be6?w=1600&q=80&auto=format&fit=crop',
     excerpt:
-      'George Bush Intercontinental Airport spans five massive terminals linked by two distinct visual train systems.',
-    body: `Houston (IAH) operates Terminals A, B, C, D, and E. Navigating this massive layout relies heavily on two train systems: the airside Skyway and the landside Subway.
+      'Spanning five massive terminal buildings, Houston Intercontinental is a giant. Here is my personal guide to conquering their airside and landside trains entirely by sight.',
+    body: `Houston (IAH) is a massive American hub operating Terminals A, B, C, D, and E. Navigating between them means mastering two distinct transit train networks: the airside Skyway and the landside Subway. As someone who can\'t rely on audio track announcements, I found their visual mapping systems brilliant.
 
-**Visual Transit Systems**
-The airside Skyway elevated train features high-contrast terminal maps mounted above every doorway, providing rolling text updates for upcoming terminals. The landside Subway utilises explicit colour-coded lines on the floor and columns to guide you to the correct platform without requiring voice instructions.
+**Riding the Airside Skyway**
+The Skyway elevated train rides high above the terminal roofs. It gives you sweeping, panoramic window views of the airfields, which is fantastic for keeping your geographical bearings as you move visually between terminals. They also have high-contrast terminal maps mounted directly above every single doorway with scrolling text indicators.
 
-**Pillar Lighting Codes**
-Terminal D handles international departures with modern, expansive LED signage walls. Check-in zones utilise brightly illuminated pillar lights that change colours based on the specific airline operating at the desk, establishing an independent confirmation point.`,
+**Navigating the Landside Subway**
+Located down in the basement level, this underground track connects all five terminals before you go through security. The directional wall markers are incredibly clear, utilizing explicit colour-coded lines painted directly onto the floors and structural columns to guide you straight to the correct platform without requiring voice instructions.
+
+**Pillar Lighting Codes in Terminal D**
+Terminal D handles the bulk of the international flights and features expansive LED signage walls. My favourite design detail is at the check-in zones: they use brightly illuminated pillar lights that completely change colours based on which specific airline is operating at that desk, giving you an instant visual confirmation point.`,
   },
   {
     slug: 'jfk-airport',
     category: 'transit',
     title: 'John F. Kennedy International Airport (JFK)',
-    subtitle: 'Connecting across New York\'s decentralized terminal system',
+    subtitle: 'Utilising on-demand ASL interpreters and light-up loop systems',
     location: 'New York, USA',
     date: 'February 2026',
     readTime: '8 min read',
     image:
       'https://images.unsplash.com/photo-1543716627-839b54c40519?w=1600&q=80&auto=format&fit=crop',
     excerpt:
-      'John F. Kennedy Airport features decentralized, completely separate terminal hubs linked by the ubiquitous AirTrain system.',
-    body: `JFK consists of multiple detached, massive terminals. Because they are not physically connected by corridors, the automated AirTrain is your core loop for transit.
+      'JFK is a massive, decentralized network of completely separate terminal hubs. Here is how I use New York\'s digital accessibility tools to bridge the gap.',
+    body: `Because JFK consists of multiple detached, independent terminal buildings linked only by the automated AirTrain loop, it can feel like navigating several different airports at once. Each terminal operates as its own independent ecosystem, making visual navigation apps and on-site tools crucial.
 
-**On-Demand American Sign Language (ASL)**
-JFK offers free on-demand video interpreting via **Convo Now** to help Deaf or hard-of-hearing travellers communicate with Airport Customer Service Specialists (ACES). Locate an ACES wearing a red shirt at an Information Centre near Baggage Claim and scan their provided QR code to launch a live ASL interpreter in your browser.
+**Live On-Demand ASL Interpreters**
+This is an absolute game-changer for deaf travellers in the US. JFK offers a free, on-demand video interpreting service called **Convo Now** to help you communicate seamlessly with their Airport Customer Service Specialists (ACES). I spotted an ACES team member wearing a bright red shirt near the baggage claim information centre, scanned the QR code they provided, and it instantly launched a live American Sign Language interpreter right in my mobile browser. 
 
-**Audio Induction Loops**
-Dedicated hearing loops (Telecoil/“T” setting compatible) are permanently installed at key Information Centres across every terminal block:
+**Audio Induction Loops Everywhere**
+If you use assistive listening devices, dedicated hearing loops compatible with the Telecoil/'T' setting are permanently installed at the main Information Centres across every single terminal block. You can find them at:
 * Terminal 1 Information Centre
 * Terminal 4 Domestic and International Information Centres
 * Terminal 5 Domestic Information Centre
 * Terminal 7 Information Centre
 * Terminal 8 Information Centre
 
-**AirTrain Map Indicators**
-The AirTrain platforms are lined with explicit, colour-coded light-up route maps. As the train progresses, glowing LED indicators change positions on the route board to show you exactly which terminal station you are arriving at.`,
+**Tracking the AirTrain**
+The AirTrain platforms feature explicit, colour-coded light-up route maps. As the train moves along the tracks, glowing LED indicators change positions on the physical route board to show you exactly which terminal station you are pulling into. Plus, major hubs like Terminal 4 feature digital queue estimation graphics at security, displaying real-time visual line bars so you can choose the quickest path to the scanners.`,
   },
   {
     slug: 'valencia-airport',
     category: 'transit',
     title: 'Valencia Manises Airport (VLC)',
-    subtitle: 'Navigating Terminals 1, 2, and the Regional Hub seamlessly',
+    subtitle: 'Flawless linear floor tracking across an integrated terminal corridor',
     location: 'Valencia, Spain',
     date: 'December 2025',
     readTime: '6 min read',
     image:
       'https://images.unsplash.com/photo-1534008897995-27a23e859048?w=1600&q=80&auto=format&fit=crop',
     excerpt:
-      'Valencia combines historical and modern architecture across interconnected terminals that feature exceptional linear floor tracking.',
-    body: `Valencia Manises Airport links Terminal 1, Terminal 2, and a Regional Terminal into a singular connected indoor building corridor.
+      'Valencia effortlessly blends historic and modern wings into a single continuous building. Here is how I navigate its exceptional linear floor tracking.',
+    body: `Valencia Manises Airport beautifully links Terminal 1, Terminal 2, and a Regional Terminal into one single, connected indoor corridor. For a deaf traveller, this layout is incredibly comforting because you maintain a continuous line of sight throughout your journey.
 
-**Connecting Corridors**
-Moving between T1 and T2 is entirely seamless. The transitions are marked by large overhead textual signage rather than physical separation barriers, maintaining a continuous sightline.
+**Seamless Terminal Transitions**
+Moving between T1 and T2 requires zero transit trains or complex security re-checks. The transitions are simply marked by large, high-contrast overhead textual signage rather than physical barriers, so you can easily track your progress as you walk down the main concourse.
 
-**Metro Connection Visibility**
-The underlying Metrovalencia station links directly to the basement level. High-contrast red and white signage guides you out of the train doors and directly up the elevators straight to the check-in floor.
+**Brilliant Metro Connection Visibility**
+The underlying Metrovalencia station links directly into the terminal\'s basement level. The moment you step off the train doors, high-contrast red and white signage guides your eyes directly to the lifts, taking you straight up to the check-in floor without any confusing intermediate levels.
 
 **Regional Gates Layout**
-The regional boarding area utilises a specific lower-level pier setup. Monitors are packed densely at the ramp entrance to verify commuter flight details visually before descending.`,
+The regional boarding wing uses a specific lower-level pier setup. Monitors are packed densely right at the top of the ramp entrance, allowing you to thoroughly verify your commuter flight details visually before you descend to the lower gates.`,
   },
   {
     slug: 'premier-inn-preston-north',
     category: 'stays',
     title: 'Premier Inn Preston North',
-    subtitle: 'A structural, independent visual review for deaf travellers',
+    subtitle: 'My independent visual review of room safety kits and digital check-ins',
     location: 'Preston, UK',
     date: 'May 2026',
     readTime: '5 min read',
     image:
       'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1600&q=80&auto=format&fit=crop',
     excerpt:
-      'Premier Inn Preston North provides a structurally predictable, low-stress environment for travellers navigating without audio cues.',
-    body: `Premier Inn Preston North provides a structurally predictable, low-stress environment for travellers navigating without audio cues. Because the hotel relies on a standardised layout and simplified digital check-in options, independent visual navigation is straightforward.
+      'As a frequent traveller, I love predictability. Premier Inn Preston North delivers a reliable, low-stress stay with a straightforward layout.',
+    body: `Premier Inn Preston North provides a structurally predictable, low-stress environment that is super easy to navigate without audio cues. Because the hotel chain relies on a standardised layout and simplified digital options, my independent visual stay was entirely seamless.
 
-**Check-In & Communication**
-The lobby features touch-screen automated check-in kiosks. The entire process—from retrieving your booking via reference number to scanning identification and dispensing room keycards—is fully visual and text-driven, allowing you to bypass the reception desk entirely. If you choose to check in at the desk, the reception counter layout is low and open, providing excellent visibility and lighting for lip-reading or using speech-to-text apps. Staff are helpful and accustomed to written exchanges on paper or phone screens.
+**Bypassing the Desk with Digital Kiosks**
+The lobby features touch-screen automated check-in kiosks. The entire process—from retrieving your booking via reference number to scanning identification and dispensing your room keycards—is fully visual and text-driven, meaning you can bypass the main reception desk entirely if you prefer a quick, independent arrival. If you do check in with the team, the counter layout is low and completely open, providing excellent visibility and lighting for lip-reading or using speech-to-text apps.
 
-**Room Alerts & Safety (Crucial Setup)**
-Like most Premier Inn locations, this hotel does not have permanently installed flashing strobe fire alarms in standard rooms. Instead, they utilise portable **Deaf Assist Alarms** (typically manufactured by Geemarc or Bellman). **You must request this kit at reception during check-in.** The kit includes a wireless receiver unit that sits on your bedside table and a high-intensity vibrating pad (pillow shaker) that slides underneath your pillow. The unit listens acoustically for the hotel's master fire alarm sound. If the building alarm triggers, the bedside unit instantly activates the pillow shaker and flashes a bright strobe light to wake you up.
+**Setting Up My Room Safety (Crucial Tip!)**
+Like most Premier Inn locations across the UK, this hotel does not have permanently installed flashing strobe fire alarms in standard bedrooms. Instead, they utilise portable **Deaf Assist Alarms** (usually Geemarc or Bellman kits). **You must explicitly request this kit at reception during check-in.** The kit comes in a compact case and includes a wireless receiver unit that sits on your bedside table, paired with a high-intensity vibrating pad (pillow shaker) that slides right underneath your pillow. The unit listens acoustically for the hotel's master fire alarm sound; if it triggers, the bedside unit instantly activates the pillow shaker and flashes a bright strobe light to wake you up.
 
-**Room Layout & Acoustics**
-The rooms feature bright, well-placed overhead lighting and adjustable bedside lamps, which make signing or lip-reading across the space effortless during evening hours. Rooms are carpeted and utilise heavy blackout curtains, which significantly deadens ambient hallway noise and echoing. This acoustic dampening is highly beneficial for minimising background distortion if you use hearing aids or cochlear implants. The in-room Freeview televisions have built-in subtitle functions accessible directly via the standard remote control (usually a dedicated "SUB" or "STTL" button), ensuring full media accessibility.`,
+**Room Layout, Subtitles & Acoustics**
+The rooms feature bright, well-placed overhead lighting and adjustable bedside lamps, making signing or lip-reading across the space effortless during evening hours. The rooms are fully carpeted and utilise heavy blackout curtains, which significantly deadens ambient hallway noise and echoing—a massive plus for minimising background distortion if you use hearing aids or implants. Also, the Freeview TVs have built-in subtitle functions accessible directly via a dedicated "SUB" or "STTL" button on the remote, ensuring full media accessibility without digging through complex menus.`,
+  },
+  {
+    slug: 'ikos-porto-petro',
+    category: 'stays',
+    title: 'Ikos Porto Petro',
+    subtitle: 'High-end app-driven luxury and open-air visual dining in Mallorca',
+    location: 'Mallorca, Spain',
+    date: 'June 2025',
+    readTime: '6 min read',
+    image:
+      'https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=1600&q=80&auto=format&fit=crop',
+    excerpt:
+      'Ikos Porto Petro offers a stunning luxury experience where their digital-first service model naturally eliminates typical audio barriers.',
+    body: `Ikos Porto Petro is absolutely incredible. The resort relies heavily on a premium, highly personalized service model that naturally removes so many of the typical audio barriers you run into at standard hotels. With sprawling, naturally lit architectural spaces, independent visual navigation here is completely stress-free.
+
+**The Ikos App is Everything**
+The second you arrive, you are integrated into the resort's dedicated smartphone application. This app became my absolute best friend for the week—I used it to book all my à la carte restaurant slots, reserve spa sessions, and even request resort shuttle golf carts to pick me up from my block. Because everything is handled via text-driven interfaces, you completely bypass the need for phone calls or vocal confirmation queues. For Deluxe Collection guests, you also get a dedicated concierge team available via WhatsApp 24/7 who are brilliantly attentive to written notes and phone-screen text messages.
+
+**Hardwired Strobe Fire Protection**
+Because this is a brand-new, modern property built to rigorous European safety standards, the accessible room configurations come equipped with integrated, hardwired flashing strobe fire alarms synchronized directly with the central building system. I always recommend explicitly confirming an adapted room layout during your booking process to guarantee this infrastructure is active in your allocated room.
+
+**Visual Poolside Ordering & Terrace Dining**
+All on-site à la carte restaurants utilise clear, highly detailed physical menus alongside digital versions via QR codes. The dining rooms feature expansive terrace seating with zero background music interference, providing a pristine acoustic profile. Plus, beach and poolside service operates via a visual flag system or direct QR-code ordering from your sunbed. You just place your order digitally or raise the physical indicator on your umbrella to summon a server, completely eliminating the need to flag anyone down vocally.`,
+  },
+  {
+    slug: 'the-tribute-manchester',
+    category: 'stays',
+    title: 'The Tribute (The Townhouse)',
+    subtitle: 'Acoustic isolation and perfect spotlighting in Manchester Piccadilly',
+    location: 'Manchester, UK',
+    date: 'April 2026',
+    readTime: '5 min read',
+    image:
+      'https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=1600&q=80&auto=format&fit=crop',
+    excerpt:
+      'Tucked right into Princess Street near Piccadilly, this boutique hotel pairs historic exterior charm with modern, visual-friendly interior convenience.',
+    body: `Centrally located right in the heart of Manchester, this gorgeous boutique hotel (historically known as The Townhouse Manchester) pairs a stunning historic brick exterior with heavily updated digital convenience. While its vibrant city-centre location means higher ambient external noise outside, the internal room design provides an acoustically isolated, highly accessible refuge.
+
+**Spotlighting Formatted for Lip-Reading**
+The open-plan reception foyer features a clean, uncluttered desk layout with warm, direct spotlighting focused precisely on the reception area. This design detail is incredible for minimizing facial shadows, making lip-reading and tracking facial expressions exceptionally easy when interacting with the front-desk team. Room services, housekeeping requests, and express checkout can also be facilitated entirely via their digital messaging platform or SMS reception line, completely removing any reliance on old-school bedside telephones.
+
+**Brilliant Acoustic Isolation**
+Because the building utilizes historic, thick structural brickwork paired with modern secondary acoustic glazing on the windows, the rooms are remarkably quiet. This superb dampening completely eliminates low-frequency city traffic rumble, allowing guests who utilize hearing aids or assistive devices to minimize background audio distortion entirely.
+
+**Setting Up Portable Alert Packs**
+Accessible room options are outfitted with hardwired visual flashing fire alarms, but if you end up in a standard room like I did, the hotel provides portable alert systems upon request at check-in. These packs include a wireless transmitter and a heavy-duty vibrating pillow pad that triggers immediately upon sensing the frequencies of the main building alarm. Corridors are also designed with bold, high-contrast door frames against neutral walls, paired with continuous overhead LED runner strips providing a highly defined visual path to your room number.`,
+  },
+  {
+    slug: 'chateau-capitoul',
+    category: 'stays',
+    title: 'Château Capitoul',
+    subtitle: 'Sun-drenched villa layouts and visual estate trails in Béziers',
+    location: 'Béziers, France',
+    date: 'August 2025',
+    readTime: '6 min read',
+    image:
+      'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600&q=80&auto=format&fit=crop',
+    excerpt:
+      'Château Capitoul seamlessly blends a historic French estate with modern luxury winery villas. Here is how I navigate its sprawling vineyard trails purely by sight.',
+    body: `Château Capitoul blends a historic French estate with luxury winery villas out in the gorgeous French countryside. Navigating an old chateau can sometimes present sensory challenges due to sprawling layouts, but Capitoul excels by offering a highly visual, self-paced luxury experience that relies heavily on digital communication and natural environmental cues.
+
+**Pre-Arrival Text Flow**
+The estate handles all bookings, dietary preferences, and winery tour schedules through comprehensive pre-arrival emails and digital forms. Upon arrival, the guest relations team relies heavily on written itineraries and text-based confirmation apps to manage your entire stay. The hospitality team is totally fluent in multi-language visual communication, and they are highly adept at utilizing written tablets, clear gestures, and text apps to ensure seamless service.
+
+**Choosing the Modern Villas**
+The estate features both historic chateau rooms and newly constructed independent luxury villas. I highly recommend booking the modern villas if you are a deaf traveller—they feature open-plan architectural layouts flooded with massive amounts of natural Mediterranean light (perfect for signing across rooms) and include updated visual alert capabilities. For historic rooms where hardwired strobes are less common due to preservation laws, make sure to coordinate with reception at check-in to arrange a portable acoustic alert unit paired with a vibrating bed shaker module.
+
+**Navigating the Vineyard Trails**
+The gorgeous grounds span acres of olive groves and vineyards. Navigating between your villa, the Asado restaurant, and the spa is guided by clear, high-contrast stone-carved or iron signage trails. Because the estate is entirely self-paced, you are never dependent on PA systems or audio cues. The indoor dining spaces utilize textured stone walls and exposed timber beams that naturally diffuse echoes, keeping the ambient noise remarkably low for assistive devices.`,
   },
 ];
 
@@ -307,14 +379,14 @@ export const cities: CityListing[] = [
         name: 'Sushi Saito',
         type: 'Omakase',
         description:
-          'Counter dining with direct chef-to-guest interaction. Ordering is visual; each course is presented and explained without audio dependency.',
+          'Counter dining with direct chef-to-guest interaction. Ordering is completely visual; each course is beautifully presented and explained without audio dependency.',
         tags: ['Counter Seating', 'Low Ambient Noise', 'Visual Presentation'],
       },
       {
         name: 'Narisawa',
         type: 'Contemporary Japanese',
         description:
-          'Intimate room, wide table spacing, warm directional lighting. Staff maintain written communication cards. Acoustic panels throughout the dining room.',
+          'Intimate room with wide table spacing and warm directional lighting. Staff maintain written communication cards and acoustic panels line the entire dining room.',
         tags: ['Wide Table Spacing', 'Acoustic Panels', 'Written Communication'],
       },
       {
@@ -330,21 +402,21 @@ export const cities: CityListing[] = [
         name: '21_21 Design Sight',
         type: 'Design Museum',
         description:
-          'Entirely exhibition-driven with strong QR code guides and printed materials. Designed to be experienced visually without audio narrative.',
+          'Entirely exhibition-driven with strong QR code guides and printed materials. Designed to be experienced visually without any audio narrative.',
         tags: ['QR Guides', 'Print Materials', 'No Audio Dependency'],
       },
       {
         name: 'teamLab Planets',
         type: 'Immersive Art',
         description:
-          'A fully immersive, entirely visual and tactile experience. No audio component is essential to the work. Navigation is self-paced.',
+          'A fully immersive, entirely visual and tactile experience. No audio component is essential to the work. Navigation is completely self-paced.',
         tags: ['Fully Visual', 'Self-Paced', 'Tactile Elements'],
       },
       {
         name: 'Yanaka Cemetery Walk',
         type: 'Self-Guided District',
         description:
-          'Downloadable map available on Tokyo\'s tourism site. The entire Yanaka neighbourhood is a visual, self-guided cultural experience.',
+          'Downloadable map available on Tokyo\'s tourism site. The entire Yanaka neighbourhood is a gorgeous, visual, self-guided cultural experience.',
         tags: ['Downloadable Map', 'Self-Guided', 'Outdoor'],
       },
     ],
@@ -359,14 +431,14 @@ export const cities: CityListing[] = [
         name: 'Geranium',
         type: 'Nordic Fine Dining',
         description:
-          'Floor-to-ceiling windows flood the room with natural light, exceptional for lip-reading and signing across the table. Table spacing is generous.',
+          'Floor-to-ceiling windows flood the room with natural light, exceptional for lip-reading and signing across the table. Table spacing is incredibly generous.',
         tags: ['Natural Light', 'Wide Table Spacing', 'Quiet Room'],
       },
       {
         name: 'Bror',
         type: 'New Nordic',
         description:
-          'Small plates served at a relaxed pace. Staff are accustomed to written ordering. Room acoustics are managed. Candlelit with warm overhead light.',
+          'Small plates served at a relaxed pace. Staff are perfectly accustomed to written ordering. Room acoustics are beautifully managed with warm overhead light.',
         tags: ['Candlelit', 'Quiet Acoustics', 'Written Ordering'],
       },
     ],
@@ -375,14 +447,14 @@ export const cities: CityListing[] = [
         name: 'Louisiana Museum of Modern Art',
         type: 'Art Museum',
         description:
-          'One of Europe\'s finest modern art museums. Exhibition maps are thorough, QR codes are present throughout, and wall text is detailed and well-written.',
+          'One of Europe\'s finest modern art museums. Exhibition maps are thorough, QR codes are present throughout, and wall text is beautifully detailed and written.',
         tags: ['Detailed Wall Text', 'QR Codes', 'Exhibition Maps'],
       },
       {
         name: 'Nyhavn Self-Walk',
         type: 'Waterfront District',
         description:
-          'The city\'s most visually iconic route. Fully self-paced with printed guide available at the main tourist office or downloadable via VisitCopenhagen.',
+          'The city\'s most visually iconic route. Fully self-paced with a printed guide available at the main tourist office or downloadable via VisitCopenhagen.',
         tags: ['Fully Walkable', 'Visual Landmarks', 'Printable Guide'],
       },
     ],
@@ -397,7 +469,7 @@ export const cities: CityListing[] = [
         name: 'Pujol',
         type: 'Contemporary Mexican',
         description:
-          'Interior courtyard seating with warm ambient lighting. Staff trained for written and gesture communication. Low ambient volume throughout.',
+          'Interior courtyard seating with warm ambient lighting. Staff are trained for written and gesture communication, keeping ambient volume low throughout.',
         tags: ['Courtyard Seating', 'Warm Lighting', 'Low Noise'],
       },
       {
@@ -413,14 +485,14 @@ export const cities: CityListing[] = [
         name: 'Museo Soumaya',
         type: 'Art Museum',
         description:
-          'Free entry. The building itself is a visual landmark. Collection labels are clear and detailed. No audio guide is needed to engage with the collection.',
+          'Free entry. The building itself is an incredible visual landmark. Collection labels are clear and detailed, with no audio guide needed to engage.',
         tags: ['Free Entry', 'Detailed Labels', 'Visual Architecture'],
       },
       {
         name: 'Coyoacán Neighbourhood',
         type: 'Cultural District',
         description:
-          'Frida Kahlo Museum is the anchor, but the entire Coyoacán district is walkable, visually rich, and fully self-guided.',
+          'The Frida Kahlo Museum is the main anchor, but the entire Coyoacán district is highly walkable, visually rich, and completely self-guided.',
         tags: ['Walkable', 'Cultural Depth', 'Frida Kahlo Museum'],
       },
     ],

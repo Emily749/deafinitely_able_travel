@@ -30,453 +30,385 @@ export const posts: Post[] = [
   {
     slug: 'navigating-heathrow-without-audio',
     category: 'transit',
-    title: 'Navigating Heathrow: Complete Terminals 2, 3, 4 & 5 Strategy',
-    subtitle: 'A structural visual roadmap for London\'s premier international aviation complex',
+    title: 'Navigating Heathrow Without Audio',
+    subtitle: 'A complete guide to Terminal 5 for deaf and hard-of-hearing travellers',
     location: 'London, UK',
-    date: 'May 2026',
-    readTime: '12 min read',
-    image: 'https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1600&q=80&auto=format&fit=crop',
-    excerpt: 'Heathrow is immense and acoustically challenging. By utilizing advanced smartphone integration, dedicated lane pathways, and visual tracking networks, you can navigate all four active terminals with fluid independence.',
-    body: `### Terminal 5 (The British Airways Master Hub)
-Terminal 5 relies heavily on high-frequency public address announcements that are frequently distorted by ambient noise. To bypass this entirely, passengers must activate the British Airways smartphone application prior to arriving at the airport. The application deploys precise boarding gate assignments up to 10 minutes before they appear on the terminal's physical display boards.
-
-**Security Tracking & Fast Track:**
-It is highly recommended to purchase a Fast Track Security pass. At the entrance, show a digital note stating "Deaf / No Audio". The security lanes are wide and staffed by personal trained to guide passengers via visual markers. Staff will step forward to use explicit hand gestures to direct you through the body scanners and luggage screening belts without oral instruction.
-
-**Premium Lounge Networks:**
-The Galleries Club, Galleries First, and the exclusive Concorde Room are equipped with digital care desks. Request a "Visual Alert Profile" upon entry. If an abrupt gate or flight status shift happens, lounge concierges are dispatched directly to your physical seating area to show you the updated itinerary on a tablet.
-
-**Gate Allocation & Boarding:**
-Always position yourself in clear sight of the multi-panel digital gate display clusters. Boarding at Terminal 5 occurs strictly via automated e-gates. Simply scan your digital boarding pass once the physical overhead monitors display your boarding group—no oral communication or verification is needed.
-
-### Terminal 2 & 3 (The Star Alliance & Oneworld Fortresses)
-Terminals 2 and 3 feature longer, denser subterranean walkways and corridor networks. Flight Information Display Systems (FIDS) are embedded at every major walkway intersection. 
-
-**Visual Wayfinding System:**
-Rely heavily on the illuminated automated "Time to Gate" digital countdown clocks scattered across the main tax-free concourses. These displays adjust their metrics in real-time based on terminal pedestrian traffic flow, bypassing any need to listen for audio overhead updates.
-
-### Terminal 4 (International SkyTeam Gateway)
-Terminal 4 features an elongated, single-level design footprint. This provides an exceptional visual advantage. Sightlines across the central terminal space are entirely unobstructed, allowing you to seamlessly monitor central flight boards while dining or resting in the seating zones.`
-  },
-  {
-    slug: 'charles-de-gaulle-terminal-2e-2f',
-    category: 'transit',
-    title: 'CDG Terminal 2E & 2F: The Visual Reference Guide',
-    subtitle: 'Paris\'s principal international hubs decoded for non-audio efficiency',
-    location: 'Paris, France',
-    date: 'April 2026',
-    readTime: '10 min read',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1600&q=80&auto=format&fit=crop',
-    excerpt: 'Paris CDG is historically challenging for sudden gate switches. Knowing the visual infrastructure of Terminals 2E and 2F gives you an elite advantage.',
-    body: `### Terminal 2E (Halls K, L, and M)
-Terminal 2E features an architectural glass and timber vault style. Because the architecture is extended over an enormous spatial area, checking physical boards from specific gate gates is difficult. Activating the Air France app with immediate push alerts turned on is your single best tool.
-
-**The PARAFE Biometric Boundary System:**
-Avoid standard passport desks with physical border agents wherever possible. Instead, map out the PARAFE biometric security gates. These clear glass booths are entirely visual. The screen guides you through your passport scan and facial geometry mapping using highly clear graphic illustrations and zero audio prompts, delivering an entirely independent border transition.
-
-**Boarding Sequence Dynamics:**
-At gates K, L, and M, boarding is completed using numbered zones. High-definition LED screens are mounted directly over the turnstiles. Keep your eyes on these monitors rather than trying to listen for muffled speaker updates. The moment your matching zone number flashes a bright amber color, step directly into the automated boarding gate line.
-
-### Terminal 2F (Schengen European Network)
-Terminal 2F features two long parallel piers enclosed in sweeping glass canopies. The natural lighting and layout lines are magnificent. 
-
-**Sightline Strategy:**
-Secure a seat at the structural midpoint of the pier corridors. This positioning provides you with an uninterrupted 360-degree view of all gate status boards across the pier simultaneously, eliminating the need to walk back and forth to look for updates.`
-  },
-  {
-    slug: 'jfk-international-terminal-4-and-8',
-    category: 'transit',
-    title: 'JFK Terminals 4 & 8: New York Visual Navigation Blueprint',
-    subtitle: 'Conquering the Delta and American Airlines hubs without auditory cues',
-    location: 'New York, USA',
-    date: 'March 2026',
-    readTime: '11 min read',
-    image: 'https://images.unsplash.com/photo-1542205815-6bb9f39d22ff?w=1600&q=80&auto=format&fit=crop',
-    excerpt: 'JFK is an absolute auditory assault of ambient noise and broken speaker arrays. This guide highlights the premium visual paths needed for its premier terminals.',
-    body: `### Terminal 4 (Delta Air Lines Mega-Hub)
-Terminal 4 is incredibly long. Walking from the main security checkpoint to the furthest gates of Concourse B can take up to 20 minutes of continuous walking. 
-
-**Visual Information Hub Infrastructure:**
-Because Terminal 4 is a straight linear structure, self-service digital interactive information hubs are positioned prominently at every five-gate increment. Do not try to flag down busy gate agents. Walk straight to these digital screens and scan your physical boarding pass barcode. The system instantly generates a clean visual layout showing your exact plane, real-time gate allocation, and exact walking maps.
-
-**TSA PreCheck & CLEAR Visual Speed:**
-Enrolling in CLEAR is highly recommended for JFK. The CLEAR check-in pods are fully visual and rely on iris scanning technology or fingerprint matrices. This cuts out verbal interactions with security personnel and allows you to move directly into the metal detector bays via visual hand signals.
-
-### Terminal 8 (American Airlines & International Partners)
-Terminal 8 is a sprawling, multi-level masterpiece with exceptionally tall structural departures display towers. The architectural layout features wide concourses with high ceilings, ensuring completely clear sightlines to gate monitors from any premium lounge entry point.`
-  },
-  {
-    slug: 'changi-airport-terminal-3-4-mastery',
-    category: 'transit',
-    title: 'Singapore Changi T3 & T4: Global Universal Design Standard',
-    subtitle: 'How the world\'s most awarded airport leverages visual design for deaf travelers',
-    location: 'Singapore',
-    date: 'February 2026',
-    readTime: '9 min read',
-    image: 'https://images.unsplash.com/photo-1569154941061-e231b4725ef1?w=1600&q=80&auto=format&fit=crop',
-    excerpt: 'Changi is built on a foundation of universal design, meaning its infrastructure naturally favors visual and clear tactile pathways.',
-    body: `### Terminal 3 (Singapore Airlines Flagship Hub)
-Terminal 3 uses an intelligent, eco-friendly overhead roof panel grid that dynamically diffuses beautiful natural daylight. This architecture completely eliminates deep overhead shadows, creating perfect, crisp lighting conditions for lip-reading and sign language communication with ground staff.
-
-**High-Contrast Flight Information Systems (FIDS):**
-Changi's FIDS arrays are oversized, ultra-high-contrast LED monitors that update flight data rows text fields instantly. If a sudden gate change occurs, the entire text row flashes a high-visibility magenta color to immediately catch your eye from across the atrium.
-
-### Terminal 4 (High-Tech Automation Showcase)
-Terminal 4 features an end-to-end automated travel journey known as Fast and Seamless Travel (FAST). From baggage drop to security and boarding, everything is controlled via intuitive touchscreens and facial recognition systems. Spoken communication is entirely optional, making it the most relaxing airport worldwide for deaf individuals.`
-  },
-  {
-    slug: 'haneda-airport-terminal-3-international',
-    category: 'transit',
-    title: 'Tokyo Haneda T3: Precision Signage & Layouts',
-    subtitle: 'An elite masterclass in visual architecture and absolute quiet hospitality',
-    location: 'Tokyo, Japan',
-    date: 'January 2026',
+    date: 'May 2025',
     readTime: '8 min read',
-    image: 'https://images.unsplash.com/photo-1503899036084-c55cdd92da26?w=1600&q=80&auto=format&fit=crop',
-    excerpt: 'Haneda combines high-speed transit operations with intuitive, hyper-detailed visual indicators across its compact layout.',
-    body: `### Terminal 3 (All International Flights)
-Haneda Terminal 3 is organized around a historical visual theme, keeping its footprint remarkably straightforward and centralized.
+    image:
+      'https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1600&q=80&auto=format&fit=crop',
+    excerpt:
+      'Heathrow\'s Terminal 5 is vast, fast-moving, and relies heavily on audio announcements. Here\'s how to move through it with complete confidence.',
+    body: `Terminal 5 operates on a visual information system that most travellers ignore entirely. The large departure boards update in real time, but the less obvious tool is the British Airways app, which pushes gate notifications directly to your phone.
 
-**Universal Visual Design Signage:**
-Haneda utilizes internationally recognized graphic iconography everywhere you look. Wayfinding signs are placed at eye level and feature high-contrast illumination. Every single restroom, walkway, and gate corridor is mapped out visually with bright, glowing landmarks.
+**Fast Track Security**
+Book fast track in advance through the BA app or Heathrow's own site. The lane moves quickly and staff are accustomed to written communication requests. Carry a small card or use your phone notes to indicate you are deaf. Staff will visually signal you through each step.
 
-**Communication at Information Desks:**
-Every single information desk in Haneda Terminal 3 comes equipped with a dedicated speech-to-text tablet device alongside a communication board featuring clear, illustrative travel icons. Ground crew will immediately transition to writing or using translation apps without any hesitation.`
+**The Lounges**
+Galleries First and Galleries Club both have staff trained to communicate via written notes or tablet. Request a vibrating alarm at the desk for boarding notifications. Lounge staff will come to you directly.
+
+**Gate Announcements**
+Sit within clear sightline of the gate display screen. All boarding information appears on screen before and during any audio announcement. If you are unsure, approach gate staff directly. Written communication is standard practice.`,
   },
   {
-    slug: 'dubai-international-terminal-3-concourses',
+    slug: 'charles-de-gaulle-terminal-2e',
     category: 'transit',
-    title: 'Dubai International T3: Conquering the Megastructure',
-    subtitle: 'Navigating Emirates\' cavernous and busy concourses without acoustic cues',
-    location: 'Dubai, UAE',
-    date: 'December 2025',
-    readTime: '13 min read',
-    image: 'https://images.unsplash.com/photo-1583037189850-1921ae7c6c22?w=1600&q=80&auto=format&fit=crop',
-    excerpt: 'DXB Terminal 3 is one of the single largest terminal structures on earth. We lay out the visual roadmap needed to master Concourses A, B, and C.',
-    body: `### Terminal 3 (Concourses A, B, and C)
-Dubai Terminal 3 is a true aviation colossus. Moving between different concourses requires utilizing an underground visual transit train system.
+    title: 'CDG Terminal 2E: The Visual Traveller\'s Reference',
+    subtitle: 'Paris\'s busiest terminal decoded for non-audio navigation',
+    location: 'Paris, France',
+    date: 'April 2025',
+    readTime: '6 min read',
+    image:
+      'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1600&q=80&auto=format&fit=crop',
+    excerpt:
+      'Terminal 2E is architecturally striking and logistically complex. Visual systems are strong if you know where to look.',
+    body: `CDG Terminal 2E sits under a distinctive elliptical glass roof that makes flight board viewing straightforward from most angles. The departure screens are large, frequent, and clearly updated.
 
-**The Emirates Flight App Advantage:**
-Because DXB is a massive shopping and lounge destination, physical departure screens can be spread far apart. Activating real-time flight tracking on the Emirates mobile app is absolutely crucial; it sends direct push alerts containing gate allocations, boarding times, and final boarding countdowns straight to your phone.
+**Check-In**
+Air France self-service kiosks are straightforward. If you need assistance, approach the staffed desk and show a written note. French airport staff are generally receptive to written exchange.
 
-**Smart Gates:**
-Ensure your passport is registered for Dubai\'s biometric Smart Gates. This allows you to completely bypass standard security lines and complete passport clearance via an intuitive automated scanner system in under 10 seconds.`
+**Security**
+The PARAFE automated gates use biometric processing. Move through at your own pace. Staff at the manual lanes respond well to gesture communication. No audio elements are required to pass through security.
+
+**Boarding**
+Gate screens in 2E display boarding status in phases. Watch for your flight number and phase indicator. Staff begin visual scanning immediately when boarding opens.`,
   },
   {
-    slug: 'frankfurt-airport-terminal-1-pier-a-z',
-    category: 'transit',
-    title: 'Frankfurt Airport T1: Visual Strategy Guide',
-    subtitle: 'Cracking the complex Lufthansa hub maze using architectural wayfinding cues',
-    location: 'Frankfurt, Germany',
-    date: 'November 2025',
-    readTime: '11 min read',
-    image: 'https://images.unsplash.com/photo-1569154941061-e231b4725ef1?w=1600&q=80&auto=format&fit=crop',
-    excerpt: 'Frankfurt Terminal 1 is a vast web of interconnected concrete concourses. This guide breaks down how to navigate it confidently using physical visual clues.',
-    body: `### Terminal 1 (Lufthansa & Star Alliance)
-FRA Terminal 1 is notorious for its highly complex layout and lengthy walking transfers. Navigating this environment demands constant vigilance of the color-coded signage systems overhead.
-
-**Color-Coded Concourse Pathways:**
-The terminal relies heavily on clear color-coded indicators to guide passengers toward Piers A, B, C, and Z. Follow the illuminated overhead banners meticulously. Do not deviate into shopping avenues without confirming your visual route via one of the multi-language flight status monitors along the path.
-
-**Automated Border Control:**
-Germany\'s 'EasyPASS' automated border lanes are entirely self-directed and visual, making it simple to glide through passport control without needing oral communication.`
-  },
-  {
-    slug: 'los-angeles-lax-tom-bradley-terminal',
-    category: 'transit',
-    title: 'LAX Tom Bradley International Terminal Guide',
-    subtitle: 'A visual survival guide to Los Angeles\' premier gateway',
-    location: 'Los Angeles, USA',
-    date: 'October 2025',
+    slug: 'four-seasons-george-v-paris',
+    category: 'stays',
+    title: 'Four Seasons George V, Paris',
+    subtitle: 'White-glove service without a single audio dependency',
+    location: 'Paris, France',
+    date: 'March 2025',
     readTime: '10 min read',
-    image: 'https://images.unsplash.com/photo-1542205815-6bb9f39d22ff?w=1600&q=80&auto=format&fit=crop',
-    excerpt: 'Tom Bradley International Terminal (TBIT) is bright, bustling, and features some of the largest digital multimedia walls in any terminal.',
-    body: `### Tom Bradley International Terminal (TBIT)
-TBIT features a beautiful, sweeping architecture anchored by massive digital display towers that present art alongside flight information.
+    image:
+      'https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=1600&q=80&auto=format&fit=crop',
+    excerpt:
+      'The George V sets the global standard for written and visual communication in a luxury hotel environment.',
+    body: `The Four Seasons George V does not use audio as the primary communication channel with guests. Every interaction from check-in onwards operates on written confirmation, eye contact, and direct engagement.
 
-**The Central Great Hall:**
-Use the Great Hall as your visual anchor point. The central flight information screens here are immense, clear, and visible from almost any dining venue in the main atrium. 
+**Check-In**
+The pre-arrival communication is thorough. Email preferences ahead of time. Staff at reception have a clear written communication protocol. Your room details, inclusions, and any special arrangements are confirmed on a printed card.
 
-**Inter-Terminal Visual Connectors:**
-LAX now features secure behind-security airside walkways connecting TBIT directly to Terminals 4, 5, 6, 7, and 8. These pathways are completely marked out with bold visual wall graphics, allowing you to walk to connecting flights without exiting security or taking loud shuttle buses.`
-  }
+**The Rooms**
+Visual alert systems are standard across rooms. Doorbell light indicators, phone text alerts, and adjustable lighting throughout the suite. The acoustic design of the rooms is exceptional. Thick walls, heavy drapes, and deep carpet absorb ambient noise entirely.
+
+**Dining at Le Cinq**
+Staff at Le Cinq bring the menu and use a notepad for ordering without any indication that this is unusual. The dining room operates at a low ambient volume. Lighting is warm and directed, ideal for lip-reading and sign communication across the table.`,
+  },
+  {
+    slug: 'aman-kyoto-review',
+    category: 'stays',
+    title: 'Aman Kyoto: Complete Stillness',
+    subtitle: 'A ryokan-influenced retreat built entirely on visual and tactile experience',
+    location: 'Kyoto, Japan',
+    date: 'February 2025',
+    readTime: '9 min read',
+    image:
+      'https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=1600&q=80&auto=format&fit=crop',
+    excerpt:
+      'Aman Kyoto\'s silence is not incidental. It is the design. For deaf travellers, this makes it close to perfect.',
+    body: `Aman Kyoto sits inside a hidden forest garden behind the Kitayama cedar grove. The property operates at a level of quiet that most travellers find startling. For deaf and hard-of-hearing guests, that quiet is not a contrast to your experience. It is your experience.
+
+**Arrival**
+Staff meet you at the garden entrance and guide you through a long stone path to reception. Communication throughout uses gesture, eye contact, and minimal written exchange. No audio element is required from arrival to departure.
+
+**The Pavilions**
+Each private pavilion uses floor-level heating, soft washi paper lighting, and deep soaking tubs with water temperature displays. Alerts are delivered via a small vibrating device left at the entrance of each pavilion. Staff knock visibly and wait.
+
+**The Forest Walk**
+Aman's forest walking path is entirely self-guided. No audio tour. Printed map. Stone lantern markers guide the route. The experience is entirely visual, tactile, and spatial.`,
+  },
 ];
 
 export const cities: CityListing[] = [
   {
     city: 'Tokyo',
     country: 'Japan',
-    image: 'https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?w=1200&q=80&auto=format&fit=crop',
+    image:
+      'https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?w=1200&q=80&auto=format&fit=crop',
     dining: [
       {
         name: 'Sushi Saito',
         type: 'Omakase',
-        description: 'Exquisite counter dining with direct chef interaction. The entire menu is visual; each course is beautifully presented and explained without audio dependency.',
-        tags: ['Counter Seating', 'Low Ambient Noise', 'Visual Presentation']
+        description:
+          'Counter dining with direct chef-to-guest interaction. Ordering is visual; each course is presented and explained without audio dependency.',
+        tags: ['Counter Seating', 'Low Ambient Noise', 'Visual Presentation'],
       },
       {
         name: 'Narisawa',
         type: 'Contemporary Japanese',
-        description: 'Generous table spacing, acoustic paneling, and magnificent directional lighting that makes visual communication across the table completely effortless.',
-        tags: ['Wide Table Spacing', 'Acoustic Panels', 'Written Communication']
+        description:
+          'Intimate room, wide table spacing, warm directional lighting. Staff maintain written communication cards. Acoustic panels throughout the dining room.',
+        tags: ['Wide Table Spacing', 'Acoustic Panels', 'Written Communication'],
       },
       {
         name: 'Den',
-        type: 'Creative Kaiseki',
-        description: 'An intimate space with beautifully warm lighting. The team uses fun visual storytelling cards to present dishes, creating an exceptionally welcome atmosphere.',
-        tags: ['Intimate Setting', 'Visual Storytelling', 'Warm Lighting']
-      }
+        type: 'Creative Japanese',
+        description:
+          'Small, intimate space with warm lighting throughout. Chef Zaiyu Hasegawa is known for creating a playful, visually communicative dining environment.',
+        tags: ['Intimate Setting', 'Visual Storytelling', 'Warm Lighting'],
+      },
     ],
     selfGuided: [
       {
         name: '21_21 Design Sight',
         type: 'Design Museum',
-        description: 'A striking Tadao Ando concrete building. Exhibits are highly visual and text-driven, utilizing comprehensive bilingual signage and digital companion codes.',
-        tags: ['QR Guides', 'Print Materials', 'No Audio Dependency']
+        description:
+          'Entirely exhibition-driven with strong QR code guides and printed materials. Designed to be experienced visually without audio narrative.',
+        tags: ['QR Guides', 'Print Materials', 'No Audio Dependency'],
       },
       {
         name: 'teamLab Planets',
         type: 'Immersive Art',
-        description: 'A completely sensory, non-auditory digital wonderland. Guests walk barefoot through water, light, and projection rooms at a fully self-guided pace.',
-        tags: ['Fully Visual', 'Self-Paced', 'Tactile Elements']
+        description:
+          'A fully immersive, entirely visual and tactile experience. No audio component is essential to the work. Navigation is self-paced.',
+        tags: ['Fully Visual', 'Self-Paced', 'Tactile Elements'],
       },
       {
-        name: 'Nezu Museum & Gardens',
-        type: 'Art Museum',
-        description: 'Stunning traditional architecture featuring clean gallery layouts with rich descriptions alongside a peaceful garden walk with clear printed maps.',
-        tags: ['Quiet Sanctuary', 'Detailed Graphics', 'Self-Guided Walk']
-      }
-    ]
+        name: 'Yanaka Cemetery Walk',
+        type: 'Self-Guided District',
+        description:
+          'Downloadable map available on Tokyo\'s tourism site. The entire Yanaka neighbourhood is a visual, self-guided cultural experience.',
+        tags: ['Downloadable Map', 'Self-Guided', 'Outdoor'],
+      },
+    ],
   },
   {
     city: 'Copenhagen',
     country: 'Denmark',
-    image: 'https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?w=1200&q=80&auto=format&fit=crop',
+    image:
+      'https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?w=1200&q=80&auto=format&fit=crop',
     dining: [
       {
         name: 'Geranium',
         type: 'Nordic Fine Dining',
-        description: 'Floor-to-ceiling panoramic windows flood the clean room with natural light, making it a dream for lip-reading and signing across the tables.',
-        tags: ['Natural Light', 'Wide Table Spacing', 'Quiet Room']
+        description:
+          'Floor-to-ceiling windows flood the room with natural light, exceptional for lip-reading and signing across the table. Table spacing is generous.',
+        tags: ['Natural Light', 'Wide Table Spacing', 'Quiet Room'],
       },
       {
-        name: 'Alchemist',
-        type: 'Holistic Dining',
-        description: 'An unparalleled 50-course theatrical experience where messages are projected across a massive overhead dome. The entire journey is purely visual and performance-driven.',
-        tags: ['Visual Theater', 'Immersive Space', 'High Contrast']
-      }
+        name: 'Bror',
+        type: 'New Nordic',
+        description:
+          'Small plates served at a relaxed pace. Staff are accustomed to written ordering. Room acoustics are managed. Candlelit with warm overhead light.',
+        tags: ['Candlelit', 'Quiet Acoustics', 'Written Ordering'],
+      },
     ],
     selfGuided: [
       {
         name: 'Louisiana Museum of Modern Art',
         type: 'Art Museum',
-        description: 'Set along the coast, featuring high-contrast galleries, detailed printed guides, and clear typography wall plaques that make audio tours entirely unnecessary.',
-        tags: ['Detailed Wall Text', 'QR Codes', 'Exhibition Maps']
+        description:
+          'One of Europe\'s finest modern art museums. Exhibition maps are thorough, QR codes are present throughout, and wall text is detailed and well-written.',
+        tags: ['Detailed Wall Text', 'QR Codes', 'Exhibition Maps'],
       },
       {
-        name: 'Glyptoteket',
-        type: 'Sculpture & Antiquities',
-        description: 'An atmospheric winter garden surrounded by classical sculpture galleries. Highly visual architectural layout makes exploring at your own pace relaxing.',
-        tags: ['Visual Landmarks', 'Self-Paced', 'Stunning Interiors']
-      }
-    ]
+        name: 'Nyhavn Self-Walk',
+        type: 'Waterfront District',
+        description:
+          'The city\'s most visually iconic route. Fully self-paced with printed guide available at the main tourist office or downloadable via VisitCopenhagen.',
+        tags: ['Fully Walkable', 'Visual Landmarks', 'Printable Guide'],
+      },
+    ],
   },
   {
-    city: 'Paris',
-    country: 'France',
-    image: 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=1200&q=80&auto=format&fit=crop',
+    city: 'Mexico City',
+    country: 'Mexico',
+    image:
+      'https://images.unsplash.com/photo-1518638150340-f706e86654de?w=1200&q=80&auto=format&fit=crop',
     dining: [
       {
-        name: 'L\'Arpège',
-        type: 'Modern French Haute Cuisine',
-        description: 'Chef Alain Passard\'s legendary space features crisp natural lighting and highly attentive staff who seamlessly accommodate written ordering.',
-        tags: ['Bright Lighting', 'Attentive Staff', 'Written Ordering']
+        name: 'Pujol',
+        type: 'Contemporary Mexican',
+        description:
+          'Interior courtyard seating with warm ambient lighting. Staff trained for written and gesture communication. Low ambient volume throughout.',
+        tags: ['Courtyard Seating', 'Warm Lighting', 'Low Noise'],
       },
       {
-        name: 'Septime',
-        type: 'Progressive Neo-Bistro',
-        description: 'A stylish, rustic setting featuring beautiful natural wood textures, great overhead illumination, and a printed daily menu detailing every course clearly.',
-        tags: ['Printed Daily Menu', 'Excellent Sightlines', 'Chic Space']
-      }
+        name: 'Merotoro',
+        type: 'Baja-Influenced',
+        description:
+          'Intimate room, close staff attention, and well-managed acoustics. Lighting is warm and wide, ideal for visual communication across the table.',
+        tags: ['Intimate Room', 'Staff Attentive', 'Warm Lighting'],
+      },
     ],
     selfGuided: [
       {
-        name: 'Musée de l\'Orangerie',
-        type: 'Impressionist Art',
-        description: 'Claude Monet\'s massive Water Lilies are displayed in two custom oval rooms, offering an entirely immersive, silent visual masterclass.',
-        tags: ['Visual Splendor', 'Simple Layout', 'Quiet Environment']
-      },
-      {
-        name: 'Palais de Tokyo',
-        type: 'Contemporary Art Center',
-        description: 'A bold, cavernous industrial space featuring grand visual art installations, vast textual descriptions, and simple directional signage.',
-        tags: ['Industrial Space', 'Bold Text Graphics', 'Self-Guided']
-      }
-    ]
-  },
-  {
-    city: 'London',
-    country: 'United Kingdom',
-    image: 'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=1200&q=80&auto=format&fit=crop',
-    dining: [
-      {
-        name: 'The Ledbury',
-        type: 'Modern British Fine Dining',
-        description: 'An elegant dining room featuring smart sound-absorbing soft furnishings, pristine lighting conditions, and wide spacing between tables.',
-        tags: ['Acoustically Managed', 'Bright Rooms', 'Premium Service']
-      },
-      {
-        name: 'Core by Clare Smyth',
-        type: 'Contemporary Elegant',
-        description: 'Features an open glass-walled kitchen workspace. Guests can observe the chefs visually while enjoying an exceptionally bright, clear, and quiet room.',
-        tags: ['Open Visual Kitchen', 'Pristine Acoustics', 'Elegant Setting']
-      }
-    ],
-    selfGuided: [
-      {
-        name: 'Tate Modern',
-        type: 'Modern Art Gallery',
-        description: 'Housed inside a massive former power station. Layout maps are incredibly clear, text guides are rich, and digital apps offer full written transcripts.',
-        tags: ['Written Transcripts', 'Spacious Layout', 'High Contrast']
-      },
-      {
-        name: 'Sir John Soane\'s Museum',
-        type: 'Historical House Museum',
-        description: 'A quirky, densely packed architectural wonderland where the primary experience involves uncovering hidden visual wall panels and paintings manually.',
-        tags: ['Intricate Visuals', 'Self-Paced Exploration', 'Printed Guides']
-      }
-    ]
-  },
-  {
-    city: 'New York City',
-    country: 'United States',
-    image: 'https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=1200&q=80&auto=format&fit=crop',
-    dining: [
-      {
-        name: 'Le Bernardin',
-        type: 'Fine Seafood',
-        description: 'An iconic, plush dining room with deeply coffered ceilings that effortlessly soak up ambient sound, paired with immaculate table service and clear lighting.',
-        tags: ['Sound Absorbing Ceilings', 'Flawless Service', 'Bright Ambiance']
-      },
-      {
-        name: 'Atomix',
-        type: 'Innovative Korean Counter',
-        description: 'An intimate 14-seat basement counter course where every dish is served with a gorgeous, descriptive card detailing its origins and philosophy.',
-        tags: ['Descriptive Dish Cards', 'Counter Seating', 'Intimate Setting']
-      }
-    ],
-    selfGuided: [
-      {
-        name: 'The Chelsea Galleries Loop',
-        type: 'Contemporary Art Walk',
-        description: 'Dozens of elite contemporary galleries packed into a few walkable blocks. Totally self-directed, visual, and free to explore at your leisure.',
-        tags: ['Walkable Loop', '100% Visual', 'Free Admission']
-      },
-      {
-        name: 'The Vessel & High Line Walk',
-        type: 'Architectural Public Walk',
-        description: 'An elevated linear public park stretching down Manhattan\'s West Side, delivering pristine architectural design lines and stunning city views.',
-        tags: ['Outdoor Path', 'Architectural Sightlines', 'Self-Guided']
-      }
-    ]
-  },
-  {
-    city: 'Singapore',
-    country: 'Singapore',
-    image: 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=1200&q=80&auto=format&fit=crop',
-    dining: [
-      {
-        name: 'Odette',
-        type: 'Modern French Fine Dining',
-        description: 'A soft, pastel-toned dining room boasting immense natural daylighting and sound-dampening fabrics, creating an oasis of visual clarity.',
-        tags: ['Daylight Vault', 'Soft Acoustics', 'Elite Hospitality']
-      },
-      {
-        name: 'Burnt Ends',
-        type: 'Modern Australian BBQ Counter',
-        description: 'High-octane open-counter kitchen view where ordering is entirely visual, centered around watching the fire-cookery perform right before your eyes.',
-        tags: ['Action Counter View', 'Vibrant Visuals', 'Direct Contact']
-      }
-    ],
-    selfGuided: [
-      {
-        name: 'Gardens by the Bay Cloud Forest',
-        type: 'Botanical Conservatory',
-        description: 'A massive, soaring glass biome featuring an interactive mountain walkway fully labeled with crisp digital signage panels and graphics.',
-        tags: ['Digital Signage Panels', 'Fully Accessible', 'Spectacular Outlines']
-      },
-      {
-        name: 'National Gallery Singapore',
-        type: 'Southeast Asian Art',
-        description: 'Beautiful visual architecture linking historical civic buildings. Highly detailed exhibition layouts with fantastic printed self-guided booklets.',
-        tags: ['Bespoke Booklets', 'Clean Visual Grid', 'Spacious Halls']
-      }
-    ]
-  },
-  {
-    city: 'Sydney',
-    country: 'Australia',
-    image: 'https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=1200&q=80&auto=format&fit=crop',
-    dining: [
-      {
-        name: 'Quay',
-        type: 'Modern Australian Fine Dining',
-        description: 'Overlooking Sydney Harbour with magnificent floor-to-ceiling windows that offer elite visual illumination for sign and lip-reading conversations.',
-        tags: ['Harbour Light View', 'Generous Floorplan', 'Impeccable Focus']
-      },
-      {
-        name: 'Bennelong',
-        type: 'Contemporary Australian',
-        description: 'Located directly inside the iconic Sydney Opera House sails. The sweeping visual architecture features wide seating spacing and excellent contrast.',
-        tags: ['Iconic Visual Frame', 'Wide Table Spacing', 'Attentive Staff']
-      }
-    ],
-    selfGuided: [
-      {
-        name: 'Art Gallery of New South Wales (Sydney Modern)',
+        name: 'Museo Soumaya',
         type: 'Art Museum',
-        description: 'The new modern wing is a light-filled architectural masterpiece with wide open spaces, clear wayfinding placards, and digital text tours.',
-        tags: ['Light Filled Wings', 'Digital Text Guides', 'Spacious Display']
+        description:
+          'Free entry. The building itself is a visual landmark. Collection labels are clear and detailed. No audio guide is needed to engage with the collection.',
+        tags: ['Free Entry', 'Detailed Labels', 'Visual Architecture'],
       },
       {
-        name: 'The Rocks Historical Visual Trail',
-        type: 'Self-Guided Walking Tour',
-        description: 'Explore Sydney\'s oldest historic quarters using a highly detailed visual heritage map app provided by the local historical association.',
-        tags: ['Historical App Map', 'Outdoor Walk', 'Self-Paced Discovery']
-      }
-    ]
+        name: 'Coyoacán Neighbourhood',
+        type: 'Cultural District',
+        description:
+          'Frida Kahlo Museum is the anchor, but the entire Coyoacán district is walkable, visually rich, and fully self-guided.',
+        tags: ['Walkable', 'Cultural Depth', 'Frida Kahlo Museum'],
+      },
+    ],
+  },
+];
+
+export type FlashCard = {
+  id: string;
+  language: string;
+  situation: string;
+  text: string;
+  phonetic?: string;
+};
+
+export const flashCards: FlashCard[] = [
+  {
+    id: 'deaf-1',
+    language: 'French',
+    situation: 'General',
+    text: 'Je suis sourd(e). Pouvez-vous écrire s\'il vous plaît?',
+    phonetic: 'Zhuh swee soord. Poo-vay voo ay-kreer seel voo play?',
   },
   {
-    city: 'Dubai',
-    country: 'UAE',
-    image: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1200&q=80&auto=format&fit=crop',
-    dining: [
-      {
-        name: 'Tresind Studio',
-        type: 'Immersive Modern Indian',
-        description: 'An intimate, highly exclusive dining room with dedicated overhead spotlights focused perfectly on each table, keeping face-to-face sightlines pristine.',
-        tags: ['Bespoke Table Spotlights', 'Intimate Layout', 'Visual Gastronomy']
-      },
-      {
-        name: 'Ossiano',
-        type: 'Progressive Underwater Fine Dining',
-        description: 'Dine alongside massive floor-to-ceiling aquarium glass walls. The entire space is illuminated by the soothing, glowing water, offering an unforgettably visual experience.',
-        tags: ['Aquarium Backlight', 'Mesmerizing Visuals', 'Quiet Space']
-      }
-    ],
-    selfGuided: [
-      {
-        name: 'Museum of the Future',
-        type: 'Futuristic Exhibition',
-        description: 'An architectural marvel covered in Arabic calligraphy. The interior features fully integrated visual tech interfaces and scannable textual screens.',
-        tags: ['Integrated Screen Tech', 'Stunning Design Lines', 'Self-Guided Loop']
-      },
-      {
-        name: 'Alserkal Avenue',
-        type: 'Contemporary Art District',
-        description: 'A vibrant industrial warehouse district converted into elite galleries and design hubs. Exceptionally walkable, open-air, and completely visual.',
-        tags: ['Industrial Design Hubs', 'Walkable Alleys', '100% Visual Art']
-      }
-    ]
-  }
+    id: 'deaf-2',
+    language: 'Japanese',
+    situation: 'General',
+    text: '私は耳が聞こえません。書いていただけますか？',
+    phonetic: 'Watashi wa mimi ga kikoemasen. Kaite itadakemasu ka?',
+  },
+  {
+    id: 'deaf-3',
+    language: 'Spanish',
+    situation: 'General',
+    text: 'Soy sordo/a. ¿Puede escribirlo por favor?',
+    phonetic: 'Soy sor-do/a. Pweh-deh es-kree-beer-lo por fa-bor?',
+  },
+  {
+    id: 'deaf-4',
+    language: 'Italian',
+    situation: 'General',
+    text: 'Sono sordo/a. Potrebbe scriverlo per favore?',
+    phonetic: 'So-no sor-do/a. Po-treb-be shkree-ver-lo per fa-vo-re?',
+  },
+  {
+    id: 'hotel-1',
+    language: 'French',
+    situation: 'Hotel',
+    text: 'Veuillez m\'envoyer un texto pour les changements de chambre ou les messages.',
+    phonetic: 'Vuh-yay mahn-vwah-yay uhn tex-to poor lay shahn-zhuh-mahn...',
+  },
+  {
+    id: 'hotel-2',
+    language: 'Japanese',
+    situation: 'Hotel',
+    text: '部屋の変更や連絡はテキストメッセージでお願いします。',
+    phonetic: 'Heya no henkou ya renraku wa tekisuto messeeji de onegai shimasu.',
+  },
+  {
+    id: 'hotel-3',
+    language: 'Spanish',
+    situation: 'Hotel',
+    text: 'Por favor, envíeme un mensaje de texto para cambios de habitación.',
+    phonetic: 'Por fa-bor, en-bee-eh-meh oon men-sa-heh deh tex-to...',
+  },
+  {
+    id: 'dining-1',
+    language: 'French',
+    situation: 'Dining',
+    text: 'Pourriez-vous nous placer dans un endroit bien éclairé?',
+    phonetic: 'Poo-ryay voo noo pla-say dahn zuhn ahn-drwah byehn ay-klay-ray?',
+  },
+  {
+    id: 'dining-2',
+    language: 'Japanese',
+    situation: 'Dining',
+    text: '明るい席に座らせていただけますか？',
+    phonetic: 'Akarui seki ni suwarasete itadakemasu ka?',
+  },
+  {
+    id: 'dining-3',
+    language: 'Italian',
+    situation: 'Dining',
+    text: 'Potremmo sederci in un posto ben illuminato?',
+    phonetic: 'Po-trem-mo seh-der-chee een oon pos-to ben ee-loo-mee-na-to?',
+  },
+  {
+    id: 'transport-1',
+    language: 'French',
+    situation: 'Transport',
+    text: 'Pourriez-vous me montrer sur votre téléphone quand nous arriverons?',
+    phonetic: 'Poo-ryay voo muh mon-tray soor vo-truh tay-lay-fon kahn noo za-ree-vuh-ron?',
+  },
+  {
+    id: 'transport-2',
+    language: 'Japanese',
+    situation: 'Transport',
+    text: '到着したらスマートフォンで教えていただけますか？',
+    phonetic: 'Touchaku shitara sumaato fon de oshiete itadakemasu ka?',
+  },
+];
+
+export type TechItem = {
+  slug: string;
+  category: string;
+  name: string;
+  description: string;
+  rating: number;
+  tags: string[];
+};
+
+export const techItems: TechItem[] = [
+  {
+    slug: 'otter-ai',
+    category: 'Speech to Text',
+    name: 'Otter.ai',
+    description:
+      'Real-time speech transcription with speaker identification. Works offline in areas with poor connectivity. Ideal for hotel check-in, guided tours, and restaurant interactions.',
+    rating: 5,
+    tags: ['Real-Time', 'Speaker ID', 'Offline Mode'],
+  },
+  {
+    slug: 'google-live-transcribe',
+    category: 'Speech to Text',
+    name: 'Google Live Transcribe',
+    description:
+      'Accurate, low-latency transcription in 70+ languages. Free to use. Runs directly on Android without cloud processing. Highly reliable in transit environments.',
+    rating: 5,
+    tags: ['70+ Languages', 'Free', 'Android'],
+  },
+  {
+    slug: 'widex-moment',
+    category: 'Hearing Technology',
+    name: 'Widex Moment',
+    description:
+      'Waterproof hearing aids with IP68 rating. Bluetooth streaming from phone and TV. Rechargeable with 37-hour battery life. Travel-grade durability.',
+    rating: 4,
+    tags: ['IP68 Waterproof', 'Bluetooth', 'Rechargeable'],
+  },
+  {
+    slug: 'bellman-alarm',
+    category: 'Travel Alarms',
+    name: 'Bellman Visit Portable Kit',
+    description:
+      'Vibrating travel alarm system with pillow shaker, bed shaker, and doorbell transmitter. Compact carry case. Works in any hotel room.',
+    rating: 5,
+    tags: ['Pillow Shaker', 'Doorbell Alert', 'Portable Kit'],
+  },
+  {
+    slug: 'roger-pen',
+    category: 'Signal Devices',
+    name: 'Phonak Roger Pen',
+    description:
+      'Directional microphone that transmits directly to compatible hearing aids or cochlear implants. Exceptional for one-on-one conversations and table discussions.',
+    rating: 4,
+    tags: ['Directional Mic', 'CI Compatible', 'One-on-One'],
+  },
+  {
+    slug: 'hand-talk',
+    category: 'Sign Language Apps',
+    name: 'Hand Talk',
+    description:
+      'Translates text and audio to sign language via animated avatar. Supports ASL and Libras. Useful for communicating with hearing children or new contacts.',
+    rating: 4,
+    tags: ['ASL', 'Libras', 'Avatar Translation'],
+  },
 ];

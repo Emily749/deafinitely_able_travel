@@ -2,7 +2,6 @@
 
 import { useState } from 'react';
 import { flashCards, techItems } from '@/lib/data';
-import type { Metadata } from 'next';
 import styles from './page.module.css';
 
 const languages = ['All', 'French', 'Japanese', 'Spanish', 'Italian'];

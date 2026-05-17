@@ -28,9 +28,9 @@ export type Venue = {
 
 export const posts: Post[] = [
   {
-    slug: 'navigating-heathrow-without-audio',
+    slug: 'heathrow-airport',
     category: 'transit',
-    title: 'Navigating Heathrow Without Audio',
+    title: 'Heathrow Airport (LHR)',
     subtitle: 'A complete guide to Terminal 5 for deaf and hard-of-hearing travellers',
     location: 'London, UK',
     date: 'May 2025',
@@ -40,6 +40,12 @@ export const posts: Post[] = [
     excerpt:
       'Heathrow\'s Terminal 5 is vast, fast-moving, and relies heavily on audio announcements. Here\'s how to move through it with complete confidence.',
     body: `Terminal 5 operates on a visual information system that most travellers ignore entirely. The large departure boards update in real time, but the less obvious tool is the British Airways app, which pushes gate notifications directly to your phone.
+
+**Live Sign Language Assistance**
+Heathrow offers the free **Convo** service for instant access to a qualified British Sign Language (BSL) interpreter. Look for Convo posters and QR codes inside Assistance host areas across all terminals to load an interpreter directly in your phone's browser without downloading an app.
+
+**Induction Loops & Payphones**
+Induction loops are fitted throughout the airport terminals—look for the standard 'sympathetic ear' symbol. All public payphones and credit card phones have been adapted for hearing aids, and text payphones are available in the arrivals area just past Customs.
 
 **Fast Track Security**
 Book fast track in advance through the BA app or Heathrow's own site. The lane moves quickly and staff are accustomed to written communication requests. Carry a small card or use your phone notes to indicate you are deaf. Staff will visually signal you through each step.
@@ -51,9 +57,9 @@ Galleries First and Galleries Club both have staff trained to communicate via wr
 Sit within clear sightline of the gate display screen. All boarding information appears on screen before and during any audio announcement. If you are unsure, approach gate staff directly. Written communication is standard practice.`,
   },
   {
-    slug: 'gatwick-airport-visual-transit',
+    slug: 'gatwick-airport',
     category: 'transit',
-    title: 'Gatwick Airport: Visual Transit between North and South',
+    title: 'Gatwick Airport (LGW)',
     subtitle: 'Managing terminal changes and security without audio cues',
     location: 'London, UK',
     date: 'June 2025',
@@ -64,19 +70,22 @@ Sit within clear sightline of the gate display screen. All boarding information 
       'Gatwick\'s split terminal design relies on a shuttle link. Here is how to keep your visual bearings through both hubs.',
     body: `The inter-terminal shuttle running between North and South terminals is completely automated. It features high-contrast digital text screens inside each carriage updating the upcoming stops visually.
 
-**The Shuttle Link**
-No audio verification is required to transfer. Simply follow the overhead yellow signs pointing to the alternative terminal shuttle. The platforms have prominent digital countdown timers above the doors.
+**Staff Communication & Training**
+London Gatwick partners with **Action for Deafness** to train airport staff, ensuring over 150 team members understand the specific communication barriers faced by deaf and hard-of-hearing travellers. Dedicated assistance desks feature Hearing T-loop systems.
+
+**Assistance Lounges & Seating**
+If using the Assisted Travel service, staff will escort you past security to the Assistance Lounge. If navigating independently, you can bypass World Duty Free using signs to reach the Dedicated Assistance Seating zones (Upper floor in South Terminal; adjacent to Boots/Wetherspoons in North Terminal) where all key structural announcements are clearly mirrored on surrounding displays.
 
 **Security Queues**
-Both North and South terminals utilize large color-coded overhead screens to direct passengers into lanes. Use the barcode scanners at the turnstiles and look for the overhead green or red arrow indicators to know which security line is ready for you.
+Both North and South terminals utilise large colour-coded overhead screens to direct passengers into lanes. Use the barcode scanners at the turnstiles and look for the overhead green or red arrow indicators to know which security line is ready for you.
 
 **Digital Boarding**
 Gatwick features massive, highly dense digital departure matrixes in both departure lounges. Since individual gate updates are not broadcast visually over loudspeakers in general seating, sit directly facing a flight information display screen (FIDS).`,
   },
   {
-    slug: 'stansted-airport-one-terminal-strategy',
+    slug: 'stansted-airport',
     category: 'transit',
-    title: 'Stansted Airport: One-Terminal Strategy',
+    title: 'Stansted Airport (STN)',
     subtitle: 'Navigating the single-terminal layout and transit trains seamlessly',
     location: 'Essex, UK',
     date: 'July 2025',
@@ -86,6 +95,9 @@ Gatwick features massive, highly dense digital departure matrixes in both depart
     excerpt:
       'Stansted streamlines everyone through a singular massive space, but the satellite gates require a visual transit train strategy.',
     body: `Stansted operates as a single large terminal building, which simplifies orientation, but relies on a visual monorail shuttle to reach the furthest satellite departure gates.
+
+**On-Demand BSL Interpreters**
+London Stansted has fully integrated with the **SignLive** service. Deaf or hard-of-hearing passengers can instantly connect to a live British Sign Language interpreter when communicating with airport staff or contacting customer service counters.
 
 **The Automated Track Transit**
 When your gate is assigned, follow the clear overhead numbers down to the track transit system. The platforms are fully glass-walled with scrolling destination indicators showing exactly which satellite gates (1 to 39) the arriving train will access.
@@ -97,32 +109,9 @@ Because the main hall gets incredibly crowded, visual notifications on the centr
 Low-cost carriers at Stansted rely heavily on rapid turnaround times. Monitor the gate-side digital displays closely, as boarding phases scale quickly without distinct visual buffer announcements.`,
   },
   {
-    slug: 'charles-de-gaulle-terminal-2e',
+    slug: 'beziers-airport',
     category: 'transit',
-    title: 'CDG Terminal 2E: The Visual Traveller\'s Reference',
-    subtitle: 'Paris\'s busiest terminal decoded for non-audio navigation',
-    location: 'Paris, France',
-    date: 'April 2025',
-    readTime: '6 min read',
-    image:
-      'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1600&q=80&auto=format&fit=crop',
-    excerpt:
-      'Terminal 2E is architecturally striking and logistically complex. Visual systems are strong if you know where to look.',
-    body: `CDG Terminal 2E sits under a distinctive elliptical glass roof that makes flight board viewing straightforward from most angles. The departure screens are large, frequent, and clearly updated.
-
-**Check-In**
-Air France self-service kiosks are straightforward. If you need assistance, approach the staffed desk and show a written note. French airport staff are generally receptive to written exchange.
-
-**Security**
-The PARAFE automated gates use biometric processing. Move through at your own pace. Staff at the manual lanes respond well to gesture communication. No audio elements are required to pass through security.
-
-**Boarding**
-Gate screens in 2E display boarding status in phases. Watch for your flight number and phase indicator. Staff begin visual scanning immediately when boarding opens.`,
-  },
-  {
-    slug: 'beziers-cap-dagde-compact-navigation',
-    category: 'transit',
-    title: 'Béziers Cap d\'Agde: Compact Visual Navigation',
+    title: 'Béziers Cap d\'Agde Airport (BZR)',
     subtitle: 'Surviving a regional French airport without audio stress',
     location: 'Béziers, France',
     date: 'August 2025',
@@ -133,8 +122,8 @@ Gate screens in 2E display boarding status in phases. Watch for your flight numb
       'Béziers Airport is tiny, boasting a single terminal and straightforward layouts that eliminate the stress of tracking connections.',
     body: `Béziers Cap d'Agde operates with a highly intuitive, one-room concept where check-in desks, security lines, and the sole departure lounge are visible all at once.
 
-**Single Terminal Layout**
-There are no multi-terminal complications or transit trains here. Everything operates in walking distance. Signage is consistently printed in high-contrast French and English formats across the main hall walls.
+**Visual Independence**
+Because there are no complex boarding announcements or massive digital matrix shifts, deaf travellers can safely monitor the single departures screen. Induction loop signs are posted at primary check-in points.
 
 **Tarmac Boarding**
 Béziers lacks jet bridges completely. When your flight opens, staff open a manual exit door directly to the tarmac. Simply follow the physical queue layout on the asphalt directly to the aircraft stairways.
@@ -143,9 +132,9 @@ Béziers lacks jet bridges completely. When your flight opens, staff open a manu
 Because the terminal handles just a few budget flights simultaneously, the ambient noise is incredibly minimal compared to major hubs, making visual focus much easier.`,
   },
   {
-    slug: 'menorca-mahon-orderly-departures',
+    slug: 'menorca-airport',
     category: 'transit',
-    title: 'Menorca Mahón: Orderly Visual Departures',
+    title: 'Menorca Mahón Airport (MAH)',
     subtitle: 'Navigating the multi-level Balearic terminal without announcements',
     location: 'Menorca, Spain',
     date: 'September 2025',
@@ -153,11 +142,11 @@ Because the terminal handles just a few budget flights simultaneously, the ambie
     image:
       'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1600&q=80&auto=format&fit=crop',
     excerpt:
-      'Menorca Airport organizes its check-in, security, and gates vertically, providing a clear visual chain to follow.',
-    body: `Menorca Airport utilizes a clean vertical split structure: Check-In resides entirely on Floor 1, while Security Screenings and Boarding Gates sit on Floor 2.
+      'Menorca Airport organises its check-in, security, and gates vertically, providing a clear visual chain to follow.',
+    body: `Menorca Airport utilises a clean vertical split structure: Check-In resides entirely on Floor 1, while Security Screenings and Boarding Gates sit on Floor 2.
 
-**Vertical Flow**
-Clear elevators and escalators guide you upward from check-in directly to the security floor. Status displays are positioned at every escalator bank to ensure you verify your status before proceeding.
+**Text-Based Information Overlays**
+Main informational columns and flight display blocks include text-based status markers rather than shifting layouts. Ensure you confirm your gate alignment visibly as audio announcements are rarely paired with multi-language updates during peak season.
 
 **Airside Signage**
 Once past security, gates are arranged in a single linear corridor format. The text and gate number markers use distinct bright yellow numbering schemes that contrast against the interior architecture.
@@ -166,9 +155,9 @@ Once past security, gates are arranged in a single linear corridor format. The t
 The airside Tramuntana VIP lounge features its own standalone flight monitors, allowing you to track gate assignments in a calm environment away from the crowded main corridors.`,
   },
   {
-    slug: 'palma-de-mallorca-handling-scale',
+    slug: 'mallorca-airport',
     category: 'transit',
-    title: 'Palma de Mallorca: Handling Immense Visual Scale',
+    title: 'Palma de Mallorca Airport (PMI)',
     subtitle: 'Managing the massive modular corridors of Son Sant Joan',
     location: 'Mallorca, Spain',
     date: 'October 2025',
@@ -179,19 +168,19 @@ The airside Tramuntana VIP lounge features its own standalone flight monitors, a
       'Palma is massive, but its layout relies on a singular central processing building connected to four distinct, visible modules.',
     body: `Palma de Mallorca Airport is highly modular. You pass through security in a unified central terminal before separating out into Modules A, B, C, or D.
 
-**Long Walkway Signage**
+**Continuous Flight Monitors**
 The walkways connecting modules are exceptionally long. They feature continuous moving walkways lined with high-frequency flight indicator screens so you never have to turn around to verify gate modifications.
 
 **Module Specifics**
-Each module has a dedicated color accent and entrance sign. Ensure you look at the master terminal board immediately after security check to confirm your letter destination before making the trek.
+Each module has a dedicated colour accent and entrance sign. Ensure you look at the master terminal board immediately after security check to confirm your letter destination before making the trek.
 
 **Visual Alerts at Gates**
 Because gates are deep within separate piers, gate-front screens are your source of truth. They display boarding status rows clearly, shifting from "Scheduled" to "Boarding" with high-contrast text layout.`,
   },
   {
-    slug: 'ibiza-airport-high-season-strategy',
+    slug: 'ibiza-airport',
     category: 'transit',
-    title: 'Ibiza Airport: High-Season Visual Strategy',
+    title: 'Ibiza Airport (IBZ)',
     subtitle: 'Tracking your way through intense summer crowds purely by sight',
     location: 'Ibiza, Spain',
     date: 'November 2025',
@@ -203,7 +192,7 @@ Because gates are deep within separate piers, gate-front screens are your source
     body: `Ibiza Airport works as a singular elongated building layout. High passenger numbers mean acoustic announcements are easily drowned out, making physical indicators your primary navigation resource.
 
 **Centralized Security Hub**
-Security is positioned dead-center on the first floor. Digital display signage monitors the line flow visually, signaling when to step forward to scanning zones.
+Security is positioned dead-centre on the first floor. Digital display signage monitors the line flow visually, signalling when to step forward to scanning zones.
 
 **Linear Gate Path**
 All boarding gates run along a singular axis airside. This linear path means you can walk down a single line to check your specific gate screen directly without getting disoriented in side halls.
@@ -212,9 +201,57 @@ All boarding gates run along a singular axis airside. This linear path means you
 Many low-cost carriers use the lower-level ground gates that lead to bus transfers. These gates rely heavily on row lines—look for the printed zone lines on the floor to position yourself visually for early boarding.`,
   },
   {
-    slug: 'valencia-manises-historical-integration',
+    slug: 'houston-airport',
     category: 'transit',
-    title: 'Valencia Manises: Integrated Visual Flow',
+    title: 'George Bush Intercontinental Airport (IAH)',
+    subtitle: 'Mastering the multi-terminal Skyway and Subway networks by sight',
+    location: 'Houston, USA',
+    date: 'January 2026',
+    readTime: '8 min read',
+    image:
+      'https://images.unsplash.com/photo-1531058020387-3be344559be6?w=1600&q=80&auto=format&fit=crop',
+    excerpt:
+      'George Bush Intercontinental Airport spans five massive terminals linked by two distinct visual train systems.',
+    body: `Houston (IAH) operates Terminals A, B, C, D, and E. Navigating this massive layout relies heavily on two train systems: the airside Skyway and the landside Subway.
+
+**Visual Transit Systems**
+The airside Skyway elevated train features high-contrast terminal maps mounted above every doorway, providing rolling text updates for upcoming terminals. The landside Subway utilises explicit colour-coded lines on the floor and columns to guide you to the correct platform without requiring voice instructions.
+
+**Pillar Lighting Codes**
+Terminal D handles international departures with modern, expansive LED signage walls. Check-in zones utilise brightly illuminated pillar lights that change colours based on the specific airline operating at the desk, establishing an independent confirmation point.`,
+  },
+  {
+    slug: 'jfk-airport',
+    category: 'transit',
+    title: 'John F. Kennedy International Airport (JFK)',
+    subtitle: 'Connecting across New York\'s decentralized terminal system',
+    location: 'New York, USA',
+    date: 'February 2026',
+    readTime: '8 min read',
+    image:
+      'https://images.unsplash.com/photo-1543716627-839b54c40519?w=1600&q=80&auto=format&fit=crop',
+    excerpt:
+      'John F. Kennedy Airport features decentralized, completely separate terminal hubs linked by the ubiquitous AirTrain system.',
+    body: `JFK consists of multiple detached, massive terminals. Because they are not physically connected by corridors, the automated AirTrain is your core loop for transit.
+
+**On-Demand American Sign Language (ASL)**
+JFK offers free on-demand video interpreting via **Convo Now** to help Deaf or hard-of-hearing travellers communicate with Airport Customer Service Specialists (ACES). Locate an ACES wearing a red shirt at an Information Centre near Baggage Claim and scan their provided QR code to launch a live ASL interpreter in your browser.
+
+**Audio Induction Loops**
+Dedicated hearing loops (Telecoil/“T” setting compatible) are permanently installed at key Information Centres across every terminal block:
+* Terminal 1 Information Centre
+* Terminal 4 Domestic and International Information Centres
+* Terminal 5 Domestic Information Centre
+* Terminal 7 Information Centre
+* Terminal 8 Information Centre
+
+**AirTrain Map Indicators**
+The AirTrain platforms are lined with explicit, colour-coded light-up route maps. As the train progresses, glowing LED indicators change positions on the route board to show you exactly which terminal station you are arriving at.`,
+  },
+  {
+    slug: 'valencia-airport',
+    category: 'transit',
+    title: 'Valencia Manises Airport (VLC)',
     subtitle: 'Navigating Terminals 1, 2, and the Regional Hub seamlessly',
     location: 'Valencia, Spain',
     date: 'December 2025',
@@ -232,53 +269,30 @@ Moving between T1 and T2 is entirely seamless. The transitions are marked by lar
 The underlying Metrovalencia station links directly to the basement level. High-contrast red and white signage guides you out of the train doors and directly up the elevators straight to the check-in floor.
 
 **Regional Gates Layout**
-The regional boarding area uses a specific lower-level pier setup. Monitors are packed densely at the ramp entrance to verify commuter flight details visually before descending.`,
+The regional boarding area utilises a specific lower-level pier setup. Monitors are packed densely at the ramp entrance to verify commuter flight details visually before descending.`,
   },
   {
-    slug: 'houston-intercontinental-subterranean-transit',
-    category: 'transit',
-    title: 'Houston Intercontinental: Subterranean Visual Transit',
-    subtitle: 'Mastering the multi-terminal Skyway and Subway networks by sight',
-    location: 'Houston, USA',
-    date: 'January 2026',
-    readTime: '8 min read',
+    slug: 'premier-inn-preston-north',
+    category: 'stays',
+    title: 'Premier Inn Preston North',
+    subtitle: 'A structural, independent visual review for deaf travellers',
+    location: 'Preston, UK',
+    date: 'May 2026',
+    readTime: '5 min read',
     image:
-      'https://images.unsplash.com/photo-1531058020387-3be344559be6?w=1600&q=80&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1600&q=80&auto=format&fit=crop',
     excerpt:
-      'George Bush Intercontinental Airport spans five massive terminals linked by two distinct visual train systems.',
-    body: `Houston (IAH) operates Terminals A, B, C, D, and E. Navigating this massive layout relies heavily on two train systems: the airside Skyway and the landside Subway.
+      'Premier Inn Preston North provides a structurally predictable, low-stress environment for travellers navigating without audio cues.',
+    body: `Premier Inn Preston North provides a structurally predictable, low-stress environment for travellers navigating without audio cues. Because the hotel relies on a standardised layout and simplified digital check-in options, independent visual navigation is straightforward.
 
-**The Airside Skyway**
-The Skyway elevated train sits above the terminal roofs. It provides sweeping window views of the airfields, allowing you to maintain your geographical bearings as you move visually between terminals. High-contrast terminal maps are mounted above every doorway.
+**Check-In & Communication**
+The lobby features touch-screen automated check-in kiosks. The entire process—from retrieving your booking via reference number to scanning identification and dispensing room keycards—is fully visual and text-driven, allowing you to bypass the reception desk entirely. If you choose to check in at the desk, the reception counter layout is low and open, providing excellent visibility and lighting for lip-reading or using speech-to-text apps. Staff are helpful and accustomed to written exchanges on paper or phone screens.
 
-**The Landside Subway**
-Located in the basement level, this underground track connects all five terminals pre-security. Directional wall markers utilize explicit color-coded lines on the floor and columns to guide you to the correct platform without requiring voice instructions.
+**Room Alerts & Safety (Crucial Setup)**
+Like most Premier Inn locations, this hotel does not have permanently installed flashing strobe fire alarms in standard rooms. Instead, they utilise portable **Deaf Assist Alarms** (typically manufactured by Geemarc or Bellman). **You must request this kit at reception during check-in.** The kit includes a wireless receiver unit that sits on your bedside table and a high-intensity vibrating pad (pillow shaker) that slides underneath your pillow. The unit listens acoustically for the hotel's master fire alarm sound. If the building alarm triggers, the bedside unit instantly activates the pillow shaker and flashes a bright strobe light to wake you up.
 
-**International Terminal D/E Hub**
-Terminal D handles international departures with modern, expansive LED signage walls. Check-in zones use brightly illuminated pillar lights that change colors based on the specific airline operating at the desk.`,
-  },
-  {
-    slug: 'jfk-airport-airtrain-mastery',
-    category: 'transit',
-    title: 'JFK International: AirTrain Visual Mastery',
-    subtitle: 'Connecting across New York\'s decentralized terminal system',
-    location: 'New York, USA',
-    date: 'February 2026',
-    readTime: '8 min read',
-    image:
-      'https://images.unsplash.com/photo-1543716627-839b54c40519?w=1600&q=80&auto=format&fit=crop',
-    excerpt:
-      'John F. Kennedy Airport features decentralized, completely separate terminal hubs linked by the ubiquitous AirTrain system.',
-    body: `JFK consists of multiple detached, massive terminals. Because they are not physically connected by corridors, the automated AirTrain is your core loop for transit.
-
-**AirTrain Map Indicators**
-The AirTrain platforms are lined with explicit, color-coded light-up route maps. As the train progresses, glowing LED indicators change positions on the route board to show you exactly which terminal station you are arriving at.
-
-**Terminal Decentralization**
-Each terminal (like T1, T4, T7, T8) operates as its own independent airport ecosystem. When departing or arriving, check the external roadway entry signboards via the train windows to guarantee you exit at the correct terminal stop.
-
-**Security Tracking Screens**
-Major hubs like Terminal 4 feature digital queue estimation graphics at the security checkpoints. These screens provide real-time visual line bar statuses to help you choose the fastest path to the scanners.`,
+**Room Layout & Acoustics**
+The rooms feature bright, well-placed overhead lighting and adjustable bedside lamps, which make signing or lip-reading across the space effortless during evening hours. Rooms are carpeted and utilise heavy blackout curtains, which significantly deadens ambient hallway noise and echoing. This acoustic dampening is highly beneficial for minimising background distortion if you use hearing aids or cochlear implants. The in-room Freeview televisions have built-in subtitle functions accessible directly via the standard remote control (usually a dedicated "SUB" or "STTL" button), ensuring full media accessibility.`,
   },
 ];
 

@@ -73,52 +73,6 @@ The PARAFE automated gates use biometric processing. Move through at your own pa
 **Boarding**
 Gate screens in 2E display boarding status in phases. Watch for your flight number and phase indicator. Staff begin visual scanning immediately when boarding opens.`,
   },
-  {
-    slug: 'four-seasons-george-v-paris',
-    category: 'stays',
-    title: 'Four Seasons George V, Paris',
-    subtitle: 'White-glove service without a single audio dependency',
-    location: 'Paris, France',
-    date: 'March 2025',
-    readTime: '10 min read',
-    image:
-      'https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=1600&q=80&auto=format&fit=crop',
-    excerpt:
-      'The George V sets the global standard for written and visual communication in a luxury hotel environment.',
-    body: `The Four Seasons George V does not use audio as the primary communication channel with guests. Every interaction from check-in onwards operates on written confirmation, eye contact, and direct engagement.
-
-**Check-In**
-The pre-arrival communication is thorough. Email preferences ahead of time. Staff at reception have a clear written communication protocol. Your room details, inclusions, and any special arrangements are confirmed on a printed card.
-
-**The Rooms**
-Visual alert systems are standard across rooms. Doorbell light indicators, phone text alerts, and adjustable lighting throughout the suite. The acoustic design of the rooms is exceptional. Thick walls, heavy drapes, and deep carpet absorb ambient noise entirely.
-
-**Dining at Le Cinq**
-Staff at Le Cinq bring the menu and use a notepad for ordering without any indication that this is unusual. The dining room operates at a low ambient volume. Lighting is warm and directed, ideal for lip-reading and sign communication across the table.`,
-  },
-  {
-    slug: 'aman-kyoto-review',
-    category: 'stays',
-    title: 'Aman Kyoto: Complete Stillness',
-    subtitle: 'A ryokan-influenced retreat built entirely on visual and tactile experience',
-    location: 'Kyoto, Japan',
-    date: 'February 2025',
-    readTime: '9 min read',
-    image:
-      'https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=1600&q=80&auto=format&fit=crop',
-    excerpt:
-      'Aman Kyoto\'s silence is not incidental. It is the design. For deaf travellers, this makes it close to perfect.',
-    body: `Aman Kyoto sits inside a hidden forest garden behind the Kitayama cedar grove. The property operates at a level of quiet that most travellers find startling. For deaf and hard-of-hearing guests, that quiet is not a contrast to your experience. It is your experience.
-
-**Arrival**
-Staff meet you at the garden entrance and guide you through a long stone path to reception. Communication throughout uses gesture, eye contact, and minimal written exchange. No audio element is required from arrival to departure.
-
-**The Pavilions**
-Each private pavilion uses floor-level heating, soft washi paper lighting, and deep soaking tubs with water temperature displays. Alerts are delivered via a small vibrating device left at the entrance of each pavilion. Staff knock visibly and wait.
-
-**The Forest Walk**
-Aman's forest walking path is entirely self-guided. No audio tour. Printed map. Stone lantern markers guide the route. The experience is entirely visual, tactile, and spatial.`,
-  },
 ];
 
 export const cities: CityListing[] = [
@@ -307,7 +261,7 @@ export const flashCards: FlashCard[] = [
     id: 'hotel-3',
     language: 'Spanish',
     situation: 'Hotel',
-    text: 'Por favor, envíeme un mensaje de texto para cambios de habitación.',
+    text: 'Por favor, envíeme un message de texto para cambios de habitación.',
     phonetic: 'Por fa-bor, en-bee-eh-meh oon men-sa-heh deh tex-to...',
   },
   {

@@ -1,15 +1,26 @@
+'use client';
+
+import { useState, useMemo } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { cities } from '@/lib/data';
-import type { Metadata } from 'next';
 import styles from './page.module.css';
 
-export const metadata: Metadata = {
-  title: 'The Concierge',
-  description: 'Curated city directories for deaf and hard-of-hearing travellers. Acoustic dining, visual museums, and self-guided cultural routes.',
-};
-
 export default function ConciergePage() {
+  const [query, setQuery] = useState('');
+
+  const filtered = useMemo(() => {
+    if (!query.trim()) return cities;
+    const q = query.toLowerCase();
+    return cities.filter((c) => {
+      if (c.city.toLowerCase().includes(q)) return true;
+      if (c.country.toLowerCase().includes(q)) return true;
+      if (c.dining.some((v) => v.name.toLowerCase().includes(q) || v.description.toLowerCase().includes(q))) return true;
+      if (c.selfGuided.some((v) => v.name.toLowerCase().includes(q) || v.description.toLowerCase().includes(q))) return true;
+      return false;
+    });
+  }, [query]);
+
   return (
     <>
       <div className={styles.hero}>
@@ -41,32 +52,68 @@ export default function ConciergePage() {
           </div>
         </div>
 
-        <div className={styles.cities}>
-          {cities.map((city) => (
-            <Link key={city.city} href={`/concierge/${city.city.toLowerCase().replace(' ', '-')}`} className={styles.city}>
-              <div className={styles.city__img}>
-                <Image
-                  src={city.image}
-                  alt={city.city}
-                  fill
-                  sizes="(max-width: 768px) 100vw, 50vw"
-                  className={styles.img}
-                />
-                <div className={styles.city__overlay} />
-              </div>
-              <div className={styles.city__body}>
-                <p className={styles.city__country}>{city.country}</p>
-                <h2 className={styles.city__name}>{city.city}</h2>
-                <div className={styles.city__counts}>
-                  <span>{city.dining.length} dining listings</span>
-                  <span className={styles.sep} />
-                  <span>{city.selfGuided.length} self-guided curations</span>
-                </div>
-                <span className={styles.city__cta}>Explore Directory &rarr;</span>
-              </div>
-            </Link>
-          ))}
+        <div className={styles.search__row}>
+          <div className={styles.search__wrap}>
+            <svg className={styles.search__icon} width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <circle cx="6.5" cy="6.5" r="5" stroke="currentColor" strokeWidth="1.2" />
+              <path d="M10.5 10.5L14 14" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" />
+            </svg>
+            <input
+              type="text"
+              placeholder="Search cities, restaurants, museums..."
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              className={styles.search}
+            />
+            {query && (
+              <button className={styles.search__clear} onClick={() => setQuery('')} aria-label="Clear search">
+                &times;
+              </button>
+            )}
+          </div>
+          {query && (
+            <p className={styles.search__count}>
+              {filtered.length} {filtered.length === 1 ? 'city' : 'cities'} found
+            </p>
+          )}
         </div>
+
+        {filtered.length === 0 ? (
+          <div className={styles.empty}>
+            <p>No cities found for &ldquo;{query}&rdquo;. Try a different search term.</p>
+          </div>
+        ) : (
+          <div className={styles.cities}>
+            {filtered.map((city) => (
+              <Link
+                key={city.city}
+                href={`/concierge/${city.city.toLowerCase().replace(' ', '-')}`}
+                className={styles.city}
+              >
+                <div className={styles.city__img}>
+                  <Image
+                    src={city.image}
+                    alt={city.city}
+                    fill
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                    className={styles.img}
+                  />
+                  <div className={styles.city__overlay} />
+                </div>
+                <div className={styles.city__body}>
+                  <p className={styles.city__country}>{city.country}</p>
+                  <h2 className={styles.city__name}>{city.city}</h2>
+                  <div className={styles.city__counts}>
+                    <span>{city.dining.length} dining listings</span>
+                    <span className={styles.sep} />
+                    <span>{city.selfGuided.length} self-guided curations</span>
+                  </div>
+                  <span className={styles.city__cta}>Explore Directory &rarr;</span>
+                </div>
+              </Link>
+            ))}
+          </div>
+        )}
       </div>
     </>
   );

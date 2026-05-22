@@ -18,6 +18,7 @@ export default function Nav() {
     { href: '/journal', label: 'The Journal' },
     { href: '/concierge', label: 'The Concierge' },
     { href: '/toolkit', label: 'Pocket Toolkit' },
+    { href: '/about', label: 'About' },
   ];
 
   return (

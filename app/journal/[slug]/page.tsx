@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { posts } from '@/lib/data';
 import type { Metadata } from 'next';
 import styles from './page.module.css';
+import InteractiveAirportMap from '@/components/InteractiveAirportMap';
 
 type Props = { params: { slug: string } };
 
@@ -74,6 +75,9 @@ export default function PostPage({ params }: Props) {
               }
               return <p key={i} className={styles.para}>{line}</p>;
             })}
+            {post.category === 'transit' && (
+              <InteractiveAirportMap slug={post.slug} />
+            )}
           </article>
 
           <aside className={styles.aside}>

@@ -170,3 +170,23 @@
     transform: translateY(0);
   }
 }
+
+.downloadBtn {
+  display: block;
+  width: 100%;
+  padding: 16px;
+  margin-top: 24px;
+  background-color: var(--espresso);
+  color: var(--warm-white);
+  border: none;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  transition: opacity 0.25s;
+}
+
+.downloadBtn:hover {
+  opacity: 0.9;
+}
+

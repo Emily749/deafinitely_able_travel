@@ -14,6 +14,7 @@ export const metadata: Metadata = {
     siteName: 'Deafinitely Able Travel',
     type: 'website',
   },
+  manifest: '/manifest.json',
 };
 
 export default function RootLayout({

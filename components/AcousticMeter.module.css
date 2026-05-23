@@ -1,0 +1,250 @@
+.meterSection {
+  padding: var(--section-pad) 0 2rem;
+  background-color: var(--alabaster);
+  border-radius: 8px;
+}
+
+.section__header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.section__title {
+  font-family: var(--font-serif);
+  font-size: clamp(32px, 4.5vw, 52px);
+  font-weight: 300;
+  color: var(--espresso);
+  margin-top: 12px;
+  margin-bottom: 16px;
+  letter-spacing: -0.01em;
+}
+
+.section__sub {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.9;
+  color: var(--mid-tone);
+  max-width: 580px;
+  margin: 0 auto;
+}
+
+.meterContainer {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: var(--warm-white);
+  border-radius: 2px;
+  border: 1px solid var(--border-light);
+  box-shadow: 0 12px 32px rgba(28, 22, 20, 0.02);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.errorAlert {
+  width: 100%;
+  padding: 14px;
+  background-color: rgba(181, 102, 74, 0.08);
+  border: 1px solid var(--terracotta);
+  color: var(--terracotta);
+  font-size: 13px;
+  text-align: center;
+  margin-bottom: 24px;
+  line-height: 1.5;
+}
+
+/* Gauge layout */
+.gaugeOuter {
+  position: relative;
+  width: 280px;
+  height: 140px;
+  margin: 20px auto 10px;
+  overflow: hidden;
+}
+
+.gaugeInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  border: 12px solid var(--border-light);
+  box-sizing: border-box;
+}
+
+/* Three colour arc overlay on border */
+.gaugeArch {
+  position: absolute;
+  top: -12px;
+  left: -12px;
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+/* Simple sector rings created via gradient overlays or visual rings */
+.gaugeSector {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 12px solid transparent;
+  box-sizing: border-box;
+}
+
+/* sectors defined by conic gradients mapping 30-110dB (180 deg) */
+.sectorCalm {
+  border-color: var(--sage-light);
+  clip-path: polygon(0 50%, 50% 50%, 25% 0, 0 0); /* left side */
+  opacity: 0.4;
+}
+
+.sectorModerate {
+  border-color: var(--champagne-light);
+  clip-path: polygon(25% 0, 50% 50%, 75% 0); /* middle top */
+  opacity: 0.4;
+}
+
+.sectorLoud {
+  border-color: var(--terracotta-light);
+  clip-path: polygon(75% 0, 50% 50%, 100% 50%, 100% 0); /* right side */
+  opacity: 0.4;
+}
+
+.needle {
+  position: absolute;
+  width: 3px;
+  height: 108px;
+  background-color: var(--espresso);
+  bottom: 50%;
+  left: calc(50% - 1.5px);
+  transform-origin: bottom center;
+  transition: transform 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
+  z-index: 10;
+}
+
+.needle::after {
+  content: '';
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: var(--espresso);
+  bottom: -7px;
+  left: -5.5px;
+}
+
+.readout {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dbValue {
+  font-family: var(--font-serif);
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 1;
+  color: var(--espresso);
+}
+
+.dbLabel {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  color: var(--mid-tone);
+  margin-top: 4px;
+}
+
+/* Badge status */
+.statusRow {
+  margin-top: 20px;
+}
+
+.statusBadge {
+  display: inline-block;
+  padding: 6px 14px;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  border-radius: 20px;
+}
+
+.status--calm {
+  background-color: rgba(138, 158, 140, 0.12);
+  color: var(--sage);
+  border: 1px solid rgba(138, 158, 140, 0.25);
+}
+
+.status--moderate {
+  background-color: rgba(201, 169, 110, 0.12);
+  color: var(--champagne);
+  border: 1px solid rgba(201, 169, 110, 0.25);
+}
+
+.status--loud {
+  background-color: rgba(181, 102, 74, 0.12);
+  color: var(--terracotta);
+  border: 1px solid rgba(181, 102, 74, 0.25);
+}
+
+/* Advice Box */
+.adviceBox {
+  margin-top: 24px;
+  text-align: center;
+  border-top: 1px solid var(--border-light);
+  padding-top: 20px;
+  max-width: 440px;
+}
+
+.adviceText {
+  font-size: 13.5px;
+  line-height: 1.8;
+  color: var(--mid-tone);
+  font-weight: 300;
+}
+
+/* Controls */
+.controls {
+  margin-top: 36px;
+  width: 100%;
+  max-width: 280px;
+}
+
+.startBtn,
+.stopBtn {
+  display: block;
+  width: 100%;
+  padding: 16px;
+  border: none;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  transition: background-color 0.25s, color 0.25s;
+}
+
+.startBtn {
+  background-color: var(--champagne);
+  color: var(--espresso);
+}
+
+.startBtn:hover {
+  background-color: var(--champagne-light);
+}
+
+.stopBtn {
+  background-color: var(--espresso);
+  color: var(--warm-white);
+}
+
+.stopBtn:hover {
+  opacity: 0.9;
+}

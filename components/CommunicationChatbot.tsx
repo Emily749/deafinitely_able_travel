@@ -105,6 +105,99 @@ export default function CommunicationChatbot() {
     });
   };
 
+  const downloadCard = () => {
+    if (!card) return;
+    const canvas = document.createElement('canvas');
+    canvas.width = 800;
+    canvas.height = 600;
+    const ctx = canvas.getContext('2d');
+    if (!ctx) return;
+
+    // Draw background
+    ctx.fillStyle = '#fffef9'; // --warm-white
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    // Draw champagne border
+    ctx.strokeStyle = '#c9a96e'; // --champagne
+    ctx.lineWidth = 12;
+    ctx.strokeRect(6, 6, canvas.width - 12, canvas.height - 12);
+
+    // Draw inner thin border
+    ctx.strokeStyle = 'rgba(28, 22, 20, 0.06)'; // --border-light
+    ctx.lineWidth = 1;
+    ctx.strokeRect(20, 20, canvas.width - 40, canvas.height - 40);
+
+    // Draw Header Background
+    ctx.fillStyle = 'rgba(201, 169, 110, 0.1)';
+    ctx.fillRect(21, 21, canvas.width - 42, 80);
+    ctx.strokeStyle = 'rgba(201, 169, 110, 0.3)';
+    ctx.beginPath();
+    ctx.moveTo(21, 101);
+    ctx.lineTo(canvas.width - 21, 101);
+    ctx.stroke();
+
+    // Set font for language
+    ctx.fillStyle = '#c9a96e'; // --champagne
+    ctx.font = 'bold 18px Montserrat, system-ui, sans-serif';
+    ctx.textAlign = 'left';
+    ctx.fillText(card.lang.toUpperCase(), 48, 68);
+
+    // Set font for situation
+    ctx.fillStyle = '#6b6460'; // --mid-tone
+    ctx.font = 'normal 16px Montserrat, system-ui, sans-serif';
+    ctx.textAlign = 'right';
+    ctx.fillText(card.sit.toUpperCase(), canvas.width - 48, 68);
+
+    // Draw text body (needs word wrapping)
+    ctx.textAlign = 'center';
+    ctx.fillStyle = '#1c1614'; // --espresso
+    ctx.font = 'normal 32px Cormorant Garamond, Georgia, serif';
+    
+    const textY = 220;
+    const maxTextWidth = canvas.width - 120;
+    const lineHeight = 48;
+    
+    const wrapText = (text: string, x: number, startY: number, maxWidth: number, lHeight: number) => {
+      const words = text.split(' ');
+      let line = '';
+      let currentY = startY;
+      for (let n = 0; n < words.length; n++) {
+        let testLine = line + words[n] + ' ';
+        let metrics = ctx.measureText(testLine);
+        let testWidth = metrics.width;
+        if (testWidth > maxWidth && n > 0) {
+          ctx.fillText(line, x, currentY);
+          line = words[n] + ' ';
+          currentY += lHeight;
+        } else {
+          line = testLine;
+        }
+      }
+      ctx.fillText(line, x, currentY);
+      return currentY;
+    };
+    
+    const lastY = wrapText(card.translatedNeeds, canvas.width / 2, textY, maxTextWidth, lineHeight);
+
+    // Draw thank you message
+    ctx.fillStyle = '#6b6460'; // --mid-tone
+    ctx.font = 'italic 20px Cormorant Garamond, Georgia, serif';
+    ctx.fillText(card.thankYou, canvas.width / 2, lastY + 70);
+
+    // Draw branding watermark at bottom right
+    ctx.fillStyle = 'rgba(28, 22, 20, 0.2)';
+    ctx.font = '600 12px Montserrat, system-ui, sans-serif';
+    ctx.textAlign = 'right';
+    ctx.fillText('DEAFINitely ABLE TRAVEL', canvas.width - 48, canvas.height - 48);
+
+    // Download PNG
+    const url = canvas.toDataURL('image/png');
+    const link = document.createElement('a');
+    link.download = `travel-card-${card.lang.toLowerCase()}-${card.sit.toLowerCase().replace(/\s+/g, '-')}.png`;
+    link.href = url;
+    link.click();
+  };
+
   return (
     <section className={styles.generatorSection} id="communication-card">
       <div className={styles.section__header}>
@@ -179,6 +272,9 @@ export default function CommunicationChatbot() {
               <p className={styles.cardFooter}>{card.thankYou}</p>
             </div>
           </div>
+          <button onClick={downloadCard} className={styles.downloadBtn}>
+            Save to Device (PNG)
+          </button>
         </div>
       )}
     </section>

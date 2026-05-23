@@ -19,6 +19,7 @@ export default function Nav() {
     { href: '/concierge', label: 'The Concierge' },
     { href: '/toolkit', label: 'Pocket Toolkit' },
     { href: '/about', label: 'About' },
+    { href: '/contact', label: 'Contact' },
   ];
 
   return (

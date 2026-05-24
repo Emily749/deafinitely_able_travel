@@ -1,8 +1,8 @@
 {
   "name": "Deafinitely Able Travel",
   "short_name": "Deafinitely Able",
-  "description": "High-end visual travel platform and pocket toolkit for the deaf and hard-of-hearing community.",
-  "start_url": "/toolkit",
+  "description": "High-end visual travel platform for the deaf and hard-of-hearing community.",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#faf7f2",
   "theme_color": "#1c1614",

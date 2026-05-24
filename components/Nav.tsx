@@ -14,13 +14,12 @@ export default function Nav() {
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
-  const links = [
-    { href: '/journal', label: 'The Journal' },
-    { href: '/concierge', label: 'The Concierge' },
-    { href: '/toolkit', label: 'Pocket Toolkit' },
-    { href: '/about', label: 'About' },
-    { href: '/contact', label: 'Contact' },
-  ];
+   const links = [
+     { href: '/journal', label: 'The Journal' },
+     { href: '/concierge', label: 'The Concierge' },
+     { href: '/about', label: 'About' },
+     { href: '/contact', label: 'Contact' },
+   ];
 
   return (
     <header className={`${styles.nav} ${scrolled ? styles.scrolled : ''}`}>
@@ -30,21 +29,18 @@ export default function Nav() {
           <span className={styles.wordmark__sub}>Travel</span>
         </Link>
 
-        <nav className={`${styles.links} ${menuOpen ? styles.open : ''}`}>
-          {links.map((l) => (
-            <Link
-              key={l.href}
-              href={l.href}
-              className={styles.link}
-              onClick={() => setMenuOpen(false)}
-            >
-              {l.label}
-            </Link>
-          ))}
-          <Link href="/toolkit" className={styles.cta} onClick={() => setMenuOpen(false)}>
-            Get the Toolkit
-          </Link>
-        </nav>
+         <nav className={`${styles.links} ${menuOpen ? styles.open : ''}`}>
+           {links.map((l) => (
+             <Link
+               key={l.href}
+               href={l.href}
+               className={styles.link}
+               onClick={() => setMenuOpen(false)}
+             >
+               {l.label}
+             </Link>
+           ))}
+         </nav>
 
         <button
           className={styles.burger}

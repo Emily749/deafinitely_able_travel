@@ -94,15 +94,12 @@ export default function PostPage({ params }: Props) {
                 <dd>{post.readTime}</dd>
               </dl>
             </div>
-            <div className={styles.aside__card}>
-              <span className="label label--sage">Get Prepared</span>
-              <p className={styles.aside__body}>
-                Download multilingual communication flashcards for this destination in the Pocket Toolkit.
-              </p>
-              <Link href="/toolkit" className={styles.aside__btn}>
-                Open Toolkit &rarr;
-              </Link>
-            </div>
+             <div className={styles.aside__card}>
+               <span className="label label--sage">Get Prepared</span>
+               <p className={styles.aside__body}">
+                 Download multilingual communication flashcards for this destination.
+               </p>
+             </div>
           </aside>
         </div>
 

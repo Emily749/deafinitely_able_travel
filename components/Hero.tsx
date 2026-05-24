@@ -33,14 +33,11 @@ export default function Hero() {
           travellers who refuse to compromise on the quality of their journey.
         </p>
 
-        <div className={styles.actions}>
-          <Link href="/journal" className={styles.btn__primary}>
-            Read the Journal
-          </Link>
-          <Link href="/toolkit" className={styles.btn__ghost}>
-            Get the Toolkit
-          </Link>
-        </div>
+         <div className={styles.actions}>
+           <Link href="/journal" className={styles.btn__primary}>
+             Read the Journal
+           </Link>
+         </div>
       </div>
 
       <div className={styles.scroll}>

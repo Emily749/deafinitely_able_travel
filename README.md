@@ -39,11 +39,10 @@ app/
   concierge/
     page.tsx             # City directory index
     [city]/page.tsx      # Individual city guide
-  toolkit/
-    page.tsx             # Flashcards + Tech Edit
   privacy/page.tsx
   terms/page.tsx
   not-found.tsx
+```
 
 components/
   Nav.tsx / Nav.module.css

@@ -25,14 +25,10 @@ export default function ToolkitTeaser() {
       <div className={`container ${styles.inner}`}>
         <div className={styles.left}>
           <span className="label label--accent">Digital Travel Companion</span>
-          <h2 className={styles.title}>The Pocket Toolkit</h2>
+          <h2 className={styles.title}>Travel Tools &amp; Resources</h2>
           <p className={styles.body}>
-            Every tool you need before, during, and after a trip. Built for the
-            way you actually travel.
+            Accessibility-focused tools designed to enhance your travel experience.
           </p>
-          <Link href="/toolkit" className={styles.btn}>
-            Open the Toolkit
-          </Link>
         </div>
         <div className={styles.right}>
           {features.map((f) => (

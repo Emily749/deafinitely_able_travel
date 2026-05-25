@@ -11,10 +11,10 @@ export default function Manifesto() {
         <div className={styles.right}>
           <h2 className={styles.statement}>
             The travel industry was not designed for you. We are here to change
-            that — not with workarounds, but with a better standard.
+            that.
           </h2>
           <p className={styles.body}>
-            Deafinitely Able Travel exists for discerning deaf and hard-of-hearing adults
+            Deafinitely Able Travel was created for deaf and hard-of-hearing adults
             who expect the same quality of experience as any other traveller. We do not
             accommodate. We curate. Every guide, review, and tool on this platform starts
             from the same premise: your journey should be seamless, beautiful, and entirely

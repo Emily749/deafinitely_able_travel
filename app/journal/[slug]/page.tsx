@@ -52,56 +52,56 @@ export default function PostPage({ params }: Props) {
             <span>{post.readTime}</span>
           </div>
         </div>
-      </div>
+       </div>
 
-      <div className="container">
-        <div className={styles.layout}>
-          <article className={styles.article}>
-            <p className={styles.lede}>{post.excerpt}</p>
-            <div className={styles.divider} />
-            {bodyLines.map((line, i) => {
-              if (line.startsWith('**') && line.endsWith('**')) {
-                return <h3 key={i} className={styles.subhead}>{line.replace(/\*\*/g, '')}</h3>;
-              }
-              if (line.startsWith('**')) {
-                const parts = line.split('**').filter(Boolean);
-                return (
-                  <p key={i} className={styles.para}>
-                    {parts.map((part, j) =>
-                      j % 2 === 1 ? <strong key={j}>{part}</strong> : part
-                    )}
-                  </p>
-                );
-              }
-              return <p key={i} className={styles.para}>{line}</p>;
-            })}
-            {post.category === 'transit' && (
-              <InteractiveAirportMap slug={post.slug} />
-            )}
-          </article>
+       <div className="container">
+         <div className={styles.layout}>
+           <article className={styles.article}>
+             <p className={styles.lede}>{post.excerpt}</p>
+             <div className={styles.divider} />
+             {bodyLines.map((line, i) => {
+               if (line.startsWith('**') && line.endsWith('**')) {
+                 return <h3 key={i} className={styles.subhead}>{line.replace(/\*\*/g, '')}</h3>;
+               }
+               if (line.startsWith('**')) {
+                 const parts = line.split('**').filter(Boolean);
+                 return (
+                   <p key={i} className={styles.para}>
+                     {parts.map((part, j) =>
+                       j % 2 === 1 ? <strong key={j}>{part}</strong> : part
+                     )}
+                   </p>
+                 );
+               }
+               return <p key={i} className={styles.para}>{line}</p>;
+             })}
+             {post.category === 'transit' && (
+               <InteractiveAirportMap slug={post.slug} />
+             )}
+           </article>
 
-          <aside className={styles.aside}>
-            <div className={styles.aside__card}>
-              <span className="label label--accent">Quick Facts</span>
-              <dl className={styles.facts}>
-                <dt>Destination</dt>
-                <dd>{post.location}</dd>
-                <dt>Category</dt>
-                <dd>{post.category === 'transit' ? 'Transit Guide' : 'Stays & Hideaways'}</dd>
-                <dt>Published</dt>
-                <dd>{post.date}</dd>
-                <dt>Read time</dt>
-                <dd>{post.readTime}</dd>
-              </dl>
-            </div>
+           <aside className={styles.aside}>
+             <div className={styles.aside__card}>
+               <span className="label label--accent">Quick Facts</span>
+               <dl className={styles.facts}>
+                 <dt>Destination</dt>
+                 <dd>{post.location}</dd>
+                 <dt>Category</dt>
+                 <dd>{post.category === 'transit' ? 'Transit Guide' : 'Stays & Hideaways'}</dd>
+                 <dt>Published</dt>
+                 <dd>{post.date}</dd>
+                 <dt>Read time</dt>
+                 <dd>{post.readTime}</dd>
+               </dl>
+             </div>
              <div className={styles.aside__card}>
                <span className="label label--sage">Get Prepared</span>
-               <p className={styles.aside__body}">
+               <p className={styles.aside__body}>
                  Download multilingual communication flashcards for this destination.
                </p>
              </div>
-          </aside>
-        </div>
+           </aside>
+         </div>
 
         {related.length > 0 && (
           <div className={styles.related}>
